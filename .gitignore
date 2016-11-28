@@ -1,0 +1,8 @@
+node_modules/
+dest/
+plugins/
+document/
+dashboard/js/json/
+/gulpfile.js
+/package.json
+.idea
