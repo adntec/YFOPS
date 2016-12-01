@@ -51,7 +51,7 @@ SeanApp.factory('settings', ['$rootScope', function($rootScope) {
         assetsPath: '../assets',
         globalPath: '../assets/global',
         layoutPath: '../assets/layouts/layout',
-        api:'http://127.0.0.1:8080',
+        api:'http://127.0.0.1:8085',//'http://10.178.188.193:8085',
         version:'0.01',
         debug: {
             request:false,
@@ -136,11 +136,6 @@ SeanApp.controller('HeaderController', ['$rootScope','$scope','$http','$state', 
     $scope.$on('$includeContentLoaded', function() {
         // Layout.initHeader(); // init header
         initNavigation();
-        setTimeout(function(){
-            $scope.currentPage = $rootScope.$state.current.name;
-            console.log($scope.currentPage);
-            $scope.$apply();
-        })
 
     });
 
@@ -160,9 +155,9 @@ SeanApp.controller('HeaderController', ['$rootScope','$scope','$http','$state', 
         },500);
    }
 
-   $scope.selectStock = function(buShortName){
-        
-        $rootScope.buShortName = buShortName;
+   $scope.selectPBU = function(pbuCodeShortName,$event){
+        $rootScope.pbuCodeShortName = pbuCodeShortName;
+        $rootScope.$broadcast('onSelectedPBU',pbuCodeShortName);
    }
 
 }]);
@@ -203,8 +198,38 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                             '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
                             '../assets/global/plugins/mapplic/js/jquery.easing.js',
                             '../assets/global/plugins/mapplic/mapplic/mapplic.js',
-
                             '../assets/global/plugins/jquery.sparkline.min.js',
+
+                            '../assets/global/plugins/echarts/echarts.js',
+                            './js/json/overviewData.js',
+                            './js/json/queryBuList.js'
+                        ] 
+                    })
+                }]
+            }
+        })
+        // Dashboard
+        .state('financeSearch', {
+            url: "/search/finance/:id",
+            templateProvider: ['$templateCache',function($templateCache){ 
+                return $templateCache.get('views/dashboard.html');
+            }],
+
+            data: {pageTitle: '库存总览'},
+            controller: "DashboardController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'SeanApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.css',
+                            '../assets/global/plugins/mapplic/js/hammer.min.js',
+                            '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
+                            '../assets/global/plugins/mapplic/js/jquery.easing.js',
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.js',
+                            '../assets/global/plugins/jquery.sparkline.min.js',
+
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/overviewData.js',
                             './js/json/queryBuList.js'
@@ -229,6 +254,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                         name: 'SeanApp',
                         insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
                         files: [
+
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/buData.js',
                             './js/json/queryBuList.js'
@@ -253,9 +279,18 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                         name: 'SeanApp',
                         insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
                         files: [
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.css',
+                            '../assets/global/plugins/mapplic/js/hammer.min.js',
+                            '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
+                            '../assets/global/plugins/mapplic/js/jquery.easing.js',
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.js',
+                            '../assets/global/plugins/jquery.sparkline.min.js',
+
+                            './js/theme/chartOptions.js',
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/bbpQueryOverviewData.js',
-                            './js/json/queryFilter.js'
+                            './js/json/queryFilter.js',
+                            './js/json/queryBuList.js'
                         ] 
                     })
                 }]
@@ -301,9 +336,19 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                         name: 'SeanApp',
                         insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
                         files: [
+
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.css',
+                            '../assets/global/plugins/mapplic/js/hammer.min.js',
+                            '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
+                            '../assets/global/plugins/mapplic/js/jquery.easing.js',
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.js',
+                            '../assets/global/plugins/jquery.sparkline.min.js',
+
+                            './js/theme/chartOptions.js',
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/hrQueryOverviewData.js',
-                            './js/json/queryFilter.js'
+                            './js/json/hrQueryFilter.js',
+                            './js/json/queryBuList.js'
                         ] 
                     })
                 }]
@@ -327,7 +372,63 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                         files: [
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/hrQueryFactoryData.js',
-                            './js/json/queryFilter.js'
+                            './js/json/hrQueryFilter.js',
+                        ] 
+                    })
+                }]
+            }
+        })
+
+        // Other
+        .state('OtherOverview', {
+            url: "/OtherOverview",
+            templateProvider: ['$templateCache',function($templateCache){ 
+                return $templateCache.get('views/OtherOverview.html');
+            }],
+
+            data: {pageTitle: 'Other总览'},
+            controller: "OtherOverviewController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'SeanApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
+
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.css',
+                            '../assets/global/plugins/mapplic/js/hammer.min.js',
+                            '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
+                            '../assets/global/plugins/mapplic/js/jquery.easing.js',
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.js',
+                            '../assets/global/plugins/jquery.sparkline.min.js',
+
+                            './js/theme/chartOptions.js',
+                            '../assets/global/plugins/echarts/echarts.js',
+                            './js/json/otherQueryOverviewData.js', 
+                            './js/json/queryBuList.js'
+                        ] 
+                    })
+                }]
+            }
+        })
+
+        // Other
+        .state('OtherFactory', {
+            url: "/OtherFactory",
+            templateProvider: ['$templateCache',function($templateCache){ 
+                return $templateCache.get('views/OtherFactory.html');
+            }],
+
+            data: {pageTitle: 'Other工厂'},
+            controller: "OtherFactoryController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'SeanApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
+                            '../assets/global/plugins/echarts/echarts.js',
+                            './js/json/otherQueryFactoryData.js',
                         ] 
                     })
                 }]

@@ -6,9 +6,9 @@
             <!-- BEGIN HEADER MENU -->
             <div class="nav-collapse collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown dropdown-fw " ng-class="{'dashboard':'active open selected','factory':'active open selected'}[$parent.$state.current.name]">
-                        <a href="javascript:;" class="text-uppercase">
-                            <i class="icon-home"></i> 库存 </a>
+                    <li class="dropdown dropdown-fw " ng-class="{'dashboard':'active open selected','factory':'active open selected','financeSearch':'active open selected'}[$parent.$state.current.name]">
+                        <a href="javascript:;" class="text-uppercase" ui-sref="dashboard">
+                            <i class="icon-home"></i> 财务 </a>
                         <ul class="dropdown-menu dropdown-menu-fw">
                             <li ng-class="{'dashboard':'active'}[$parent.$state.current.name]">
                                 <a ui-sref="dashboard">
@@ -21,7 +21,7 @@
                         </ul>
                     </li>
                     <li class="dropdown dropdown-fw" ng-class="{'BBPOverview':'active open selected','BBPFactory':'active open selected'}[$parent.$state.current.name]">
-                        <a href="javascript:;" class="text-uppercase">
+                        <a href="javascript:;" class="text-uppercase" ui-sref="BBPOverview" >
                             <i class="icon-puzzle"></i> BBP </a>
                             <ul class="dropdown-menu dropdown-menu-fw" >
                                 <li ng-class="{'BBPOverview':'active'}[$parent.$state.current.name]">
@@ -36,15 +36,29 @@
                             
                     </li>
                     <li class="dropdown dropdown-fw" ng-class="{'HROverview':'active open selected','HRFactory':'active open selected'}[$parent.$state.current.name]">
-                        <a href="javascript:;" class="text-uppercase">
+                        <a href="javascript:;" class="text-uppercase" ui-sref="HROverview">
                             <i class="icon-user"></i> 人力 </a>
                             <ul class="dropdown-menu dropdown-menu-fw">
-                                <li ng-class="{'HROverview':'active','HRFactory':'active'}[$parent.$state.current.name]">
+                                <li ng-class="{'HROverview':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="HROverview">
                                         <i class="icon-bar-chart"></i> 总览 </a>
                                 </li>
                                 <li ng-class="{'HRFactory':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="HRFactory">
+                                        <i class="icon-bulb"></i> 工厂 </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="dropdown dropdown-fw" ng-class="{'OtherOverview':'active open selected','OtherFactory':'active open selected'}[$parent.$state.current.name]">
+                        <a href="javascript:;" class="text-uppercase" ui-sref="OtherOverview">
+                            <i class="fa fa-paper-plane"></i> 其他 </a>
+                            <ul class="dropdown-menu dropdown-menu-fw ">
+                                <li ng-class="{'OtherOverview':'active'}[$parent.$state.current.name]">
+                                    <a ui-sref="OtherOverview">
+                                        <i class="icon-bar-chart"></i> 总览 </a>
+                                </li>
+                                <li ng-class="{'OtherFactory':'active'}[$parent.$state.current.name]">
+                                    <a ui-sref="OtherFactory">
                                         <i class="icon-bulb"></i> 工厂 </a>
                                 </li>
                             </ul>
@@ -56,8 +70,8 @@
                     
                     <!-- BEGIN USER PROFILE -->
                     <div class="btn-group-img btn-group">
-                        <button type="button" class="yfops-top-btn btn btn-sm md-skip dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <span>JIT PBU</span>
+                        <button type="button" class="yfops-top-btn btn btn-sm md-skip dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" >
+                            <span ng-click="selectPBU('JIT PBU',$event)">JIT PBU</span>
                             <!-- <i class="fa fa-caret-down font-white"></i> -->
                         </button>
 

@@ -9,18 +9,12 @@
     
     $scope.$on('$viewContentLoaded', function() {
         
+        angular.element('.fullscreen').bind('click', function() {
+            initializeChartSize();
+        })
+
         initWidgetHeight();
         getfilterList();
-        getOverviewData('BU1','Conversion Cost/EQU');
-
-        angular.element('.fullscreen').bind('click', function() {
-          
-            initializeChartSize();
-        })
-
-        $(window).resize(function(){
-            initializeChartSize();
-        })
         
     });
 
@@ -146,9 +140,7 @@
                 // max: 250,
                 // interval: 50,
                 axisLabel: {
-                    formatter: function(value){
-                        return value;
-                    }
+                    formatter: '{value}'
                 }
             },
             {
@@ -293,7 +285,7 @@
         }
         
         $scope.title1 = data.ciSaving[0].lable;
-        getBarLineChart(data.ciSaving, 'chart1',trendOption2);
+        getBarLineChartExtra(data.ciSaving, 'chart1',trendOption2);
         
         $scope.title2 = data.conversionCostDivideEQU[0].lable;
         getBarLineChart(data.conversionCostDivideEQU, 'chart2',trendOption2);
@@ -313,8 +305,9 @@
         for(var i=0;i<list.length;i++){
             
             $scope.filterList.push(list[i].businessCat3);
-
         }
+
+        $scope.setFilter($scope.filterList[0]);
     }
 
     var getfilterList = function(){
@@ -327,21 +320,24 @@
 
         }).error(function(){
             ///////假数据
-            $scope.filterListObject = queryFilter.filterList;
+            $scope.filterListObject = bbpQueryFilter.filterList;
             getfilterListSuccess($scope.filterListObject);
         });
     }
 
-    $scope.setFilter = function(costType){
-        console.log(costType);
-        getOverviewData($rootScope.entityName || 'BU1',costType);
-    }
+    $scope.setFilter = function(filter){
+        console.log(filter);
+        $scope.currentFilter = filter;
+        getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+    };
 
+    $scope.$on('onSelectedPBU', function(buShortName){
+        $rootScope.buCodeShortName = buShortName;
+        getOverviewData(buShortName || 'BU1', $scope.currentFilter);
+    });
 
     var getOverviewData = function(entityName,costType){
         
-        
-
         var param = {
            "entityName":entityName,
            "costType":costType
@@ -351,13 +347,68 @@
             
             $scope.overviewData = json;
             initEchart($scope.overviewData);
-            
+
         }).error(function(){
             ////假数据
             $scope.overviewData = bbpQueryFactoryData;
             initEchart($scope.overviewData);
         })
         
+    }
+
+    var getBarLineChartExtra = function(data, chart,option){
+        //x
+        var xAxisObject = new Object();
+        for(var i=0; i < data.length; i++){
+            var item = data[i];
+            if(xAxisObject[item.xAxisValue] == undefined){
+                xAxisObject[item.xAxisValue] = new Object();
+            }
+
+            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue;
+        }
+
+        var xAxisData = Object.getOwnPropertyNames(xAxisObject);
+
+        var series = new Array();
+        var legend = ['CI-Saving-Actual','CI-Saving-T1','CI-Saving-T2','CI-Saving-T3']//Object.getOwnPropertyNames(xAxisObject[xAxisData[0]]);
+
+        for(var i=0; i < xAxisData.length; i++){
+
+            for(var j=0; j<legend.length; j++){
+                
+                if( series[j] == undefined){
+                    series[j] = new Object();
+                    series[j].name = legend[j];
+                    series[j].type = 'line';
+                    // series[j].stack = stack;
+                    series[j].data = new Array();
+
+                    if(legend[j].indexOf('Actual') >-1) {
+                        series[j].type = 'bar';
+                        series[j].yAxisIndex = 0;
+                    }else{
+                        series[j].type = 'line';
+                        series[j].yAxisIndex = 1;
+                    }
+                }
+
+                series[j].data.push(xAxisObject[xAxisData[i]][legend[j]] || 0);
+            }
+        }
+
+        //set chart option
+        var turnoverDaysOption = angular.copy(option);
+        turnoverDaysOption.legend.data = legend;
+        turnoverDaysOption.xAxis[0].data = xAxisData;
+        turnoverDaysOption.series = series;
+
+
+        console.log('turnoverDaysOption:');
+        console.log(turnoverDaysOption);
+
+        var chart = echarts.init(document.getElementById(chart),theme);
+        chart.setOption(turnoverDaysOption);
     }
 
     var getBarLineChart = function(data, chart,option){
@@ -388,7 +439,7 @@
                     // series[j].stack = stack;
                     series[j].data = new Array();
 
-                    if(xAxisObject[xAxisData[i]][legend[j]]> 100) {
+                    if(legend[j].indexOf('Actual') >-1) {
                         series[j].type = 'bar';
                         series[j].yAxisIndex = 0;
                     }else{
@@ -406,6 +457,10 @@
         turnoverDaysOption.legend.data = legend;
         turnoverDaysOption.xAxis[0].data = xAxisData;
         turnoverDaysOption.series = series;
+
+
+        console.log('turnoverDaysOption:');
+        console.log(turnoverDaysOption);
 
         var chart = echarts.init(document.getElementById(chart),theme);
         chart.setOption(turnoverDaysOption);

@@ -3,36 +3,31 @@
 
     var widgetHeight;
     $scope.$on('ngRepeatFinished', function(repeatFinishedEvent) {
-       
-        
+         
+        initSparkline();
+
+        var v = $(".widget_sparkline_bar").eq(0);
+        v.sparkline(v.data('array').split(','), {
+            type: 'bar',
+            width: '100',
+            barWidth: 10,
+            height: '34',
+            barColor: '#5b9bd1',
+            negBarColor: '#5b9bd1'
+        }); 
     });
     
     $scope.$on('$viewContentLoaded', function() {
         
+        angular.element('.fullscreen').bind('click', function() {
+            initializeChartSize();
+        })
+
         initWidgetHeight();
         getfilterList();
-        getOverviewData('BU1','Conversion Cost/EQU');
+        getBuList('JIT PBU');
 
-        angular.element('.fullscreen').bind('click', function() {
-          
-            initializeChartSize();
-        })
-
-        $(window).resize(function(){
-            initializeChartSize();
-        })
-        
     });
-
-
-    var initWidgetHeight = function(){
-        var height = $(window).height() - 63.99 - 77.78 -18.89-50;
-        $('.page-content').css('min-height',height);
-
-        widgetHeight = (height -77.8 -60) / 2 -20;
-        $('.yfops-widget').css('min-height',widgetHeight);
-    }
-
 
     //单轴
     var trendOption1 = {
@@ -130,7 +125,7 @@
             x:40,
             y:10,
             x2:30,
-            y2:148
+            y2:128
         },
         xAxis: [
             {
@@ -206,18 +201,21 @@
         ]
     };
 
+    //叠柱
     var ageOption = {
         tooltip: {
             trigger: 'axis'
         },
 
         legend: {
+            width:640,
+            left:'center',
             bottom:48,
             // data:['x<=1','1<x<=7','7<x<=30','x>30']
         },
         grid:{
             show:false,
-            x:38,
+            x:40,
             y:10,
             x2:20,
             y2:128
@@ -232,7 +230,6 @@
             {
                 type: 'value',
                 name: '',
-                interval: 20,
                 axisLabel: {
                     formatter: '{value}'
                 }
@@ -286,24 +283,51 @@
     };
 
 
+    var initSparkline = function(){
+
+        $(".widget_sparkline_bar").each(function(i,v){
+            
+            var color = '#a6a6a6';
+
+            $(v).sparkline($(v).data('array').split(','), {
+                type: 'bar',
+                width: '100',
+                barWidth: 10,
+                height: '34',
+                barColor: color,
+                negBarColor: color
+            });
+        })
+    };
+
+    var initWidgetHeight = function(){
+        var height = $(window).height() - 63.99 - 77.78 -18.89-50;
+        $('.page-content').css('min-height',height);
+
+        widgetHeight = (height -77.8 -60) / 2 ;
+        $('.yfops-widget').css('min-height',widgetHeight);
+        $('.yfops-map').css('min-height',widgetHeight -4);
+    };
+
     var initEchart = function(data){
 
         if(!data || data == undefined){
             return;
         }
+
+        console.log(data);
         
         $scope.title1 = data.totalLaborhoursDivideEQUTrendMonth[0].lable;
         getBarLineChart(data.totalLaborhoursDivideEQUTrendMonth, 'chart1',trendOption2);
         
         $scope.title2 = data.totalLaborhoursDivideEQUClassMonth[0].lable;
-        getBarLineChart(data.totalLaborhoursDivideEQUClassMonth, 'chart2',trendOption2);
+        getMixBarChart(data.totalLaborhoursDivideEQUClassMonth, 'chart2',ageOption);
 
         $scope.title3 = data.totalLaborhoursDivideEQUTrendYear[0].lable;
         getMixBarChart(data.totalLaborhoursDivideEQUTrendYear, 'chart3',ageOption);
 
         $scope.title4 = data.totalLaborhoursDivideEQUClassYear[0].lable;
         getMixBarChart(data.totalLaborhoursDivideEQUClassYear, 'chart4',ageOption);
-
     };
 
     var initializeChartSize = function() {
@@ -313,58 +337,175 @@
         },80);
     };
 
-    var getfilterListSuccess = function(list){
-
-        $scope.filterList = new Array();
-        for(var i=0;i<list.length;i++){
-            
-            $scope.filterList.push(list[i].businessCat3);
-
-        }
-    }
-
     var getfilterList = function(){
-        
+
         ///////真数据
-        $http.get($rootScope.settings.api + '/bbp/queryFilter').success(function(json){
+        $http.get($rootScope.settings.api + '/hr/queryFilter').success(function(json){
             
             $scope.filterListObject = json.filterList;
             getfilterListSuccess($scope.filterListObject);
 
         }).error(function(){
             ///////假数据
-            $scope.filterListObject = queryFilter.filterList;
+            $scope.filterListObject = hrQueryFilter.filterList;
             getfilterListSuccess($scope.filterListObject);
         });
-    }
+    };
 
-    $scope.setFilter = function(costType){
-        console.log(costType);
-        getOverviewData($rootScope.entityName || 'BU1',costType);
-    }
+    var getfilterListSuccess = function(list){
 
+        $scope.filterList = new Array();
+        for(var i=0;i<list.length;i++){
+            
+            $scope.filterList.push(list[i].businessCat3);
+        }
+
+        $scope.setFilter($scope.filterList[0]);
+    };
+
+    $scope.setFilter = function(filter){
+        console.log(filter);
+        $scope.currentFilter = filter;
+        getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+    };
+
+    var getBuList = function(pubCodeShortName){
+        
+        $.get($rootScope.settings.api + '/finance/queryBuList').success(function(json){
+            ///////真数据
+            $scope.BuListObject = json.BuList;
+            getBuListSuccess($scope.BuListObject);
+            // getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+            refreshChinaMap($rootScope.buCodeShortName);
+
+        }).error(function(){
+
+            console.log('请求error,取假数据');
+            $scope.BuListObject = queryBuList.BuList;
+            getBuListSuccess($scope.BuListObject);
+            // getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+            refreshChinaMap($rootScope.buCodeShortName);
+        });
+    };
+
+    var getBuListSuccess = function(buList){
+
+        $rootScope.BuList = new Object();
+        for(var i=0;i<buList.length;i++){
+            var shortName = buList[i].buCodeShortName;
+            if(shortName == null) continue;
+
+            if( $rootScope.BuList[shortName] == undefined){
+                $rootScope.BuList[shortName] = new Array();
+            }else{
+                $rootScope.BuList[shortName].push(buList[i]);
+            }
+        }
+
+        //bu列表
+        $rootScope.BuNameList = Object.getOwnPropertyNames($rootScope.BuList);
+        $rootScope.BuNameList = $rootScope.BuNameList.sort();
+        $rootScope.pubCodeShortName = buList[0].pubCodeShortName;
+        $rootScope.buCodeShortName = $rootScope.BuList[$rootScope.BuNameList[0]][0].buCodeShortName;
+    };
+
+    $scope.selectBU = function(buShortName,$event){
+        
+        $rootScope.buCodeShortName = buShortName;
+        initSparkline();
+
+        $('.yfops-sparkline li.active').removeClass('active');
+        $($event.currentTarget).addClass('active');
+
+        var v = $($event.currentTarget).find('.widget_sparkline_bar');
+        $(v).sparkline([8,7,9,8.5,8,8.2], {
+            type: 'bar',
+            width: '100',
+            barWidth: 10,
+            height: '34',
+            barColor: '#5b9bd1',
+            negBarColor: '#5b9bd1'
+        });
+
+        // var buShortName = $($event.currentTarget).find('.yfops-sparkline-title').html();
+        getOverviewData(buShortName);
+        refreshChinaMap(buShortName);
+    };
+
+    var refreshChinaMap = function(buShortName){
+
+        var locations = new Array();
+        var keys = $rootScope.BuList[buShortName];
+        console.log(keys);
+
+        for(var i=0;i<keys.length;i++){
+            var entity = {
+                "id": keys[i].entityCode,
+                "title": keys[i].entityShortName,
+                "description": keys[i].entityShortName,
+                // "pin": "circular",
+                "x": keys[i].axisX || 0.9024 + Math.random()*0.018,
+                "y": keys[i].axisY || 0.4076 - Math.random()*0.018
+            }
+            locations.push(entity);
+        }
+
+        var option = angular.copy(mapOption);
+        option.levels[0].locations = locations;
+        initChinaMap(option);
+    };
+
+    var initChinaMap = function(option) {
+
+        if ($('#mapplic').size() === 0) {
+            return;
+        }
+
+        $('#mapplic').html('').data('mapplic', null);
+
+        var h = widgetHeight-2;
+        $('#mapplic').mapplic({
+            source: option,
+            height: h,
+            animate: true,
+            sidebar: false,
+            minimap: false,
+            locations: true,
+            deeplinking: true,
+            fullscreen: false,
+            hovertip: true,
+            zoombuttons: true,
+            clearbutton: true,
+            developer: false,
+            maxscale: 5,
+            skin: 'mapplic-dark',
+            zoom: true
+        });
+    };
+
+    $scope.$on('onSelectedPBU', function(scope,buShortName){
+        $rootScope.buCodeShortName = buShortName;
+        getOverviewData(buShortName || 'BU1', $scope.currentFilter);
+    });
 
     var getOverviewData = function(entityName,costType){
-        
 
         var param = {
            "entityName":entityName,
            "costType":costType
         };
 
-        $http.post($rootScope.settings.api + '/bbp/queryOverviewData' , param ).success( function(json){
+        $http.post($rootScope.settings.api + '/hr/queryHRData' , param).success(function(json){
             
             $scope.overviewData = json;
             initEchart($scope.overviewData);
-            
-        }).error(function(){
 
-            ////假数据
+        }).error(function(){
+             ////假数据
             $scope.overviewData = hrQueryOverviewData;
             initEchart($scope.overviewData);
         });
-        
-    }
+    };
 
     var getBarLineChart = function(data, chart,option){
         //x
@@ -427,7 +568,7 @@
                 xAxisObject[item.xAxisValue] = new Object();
             }
 
-            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue*100;
+            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue;
         }
 
         var xAxisData = Object.getOwnPropertyNames(xAxisObject);

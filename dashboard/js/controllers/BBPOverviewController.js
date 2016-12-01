@@ -3,36 +3,31 @@
 
     var widgetHeight;
     $scope.$on('ngRepeatFinished', function(repeatFinishedEvent) {
-       
-        
+         
+        initSparkline();
+
+        var v = $(".widget_sparkline_bar").eq(0);
+        v.sparkline(v.data('array').split(','), {
+            type: 'bar',
+            width: '100',
+            barWidth: 10,
+            height: '34',
+            barColor: '#5b9bd1',
+            negBarColor: '#5b9bd1'
+        }); 
     });
     
     $scope.$on('$viewContentLoaded', function() {
         
+        angular.element('.fullscreen').bind('click', function() {
+            initializeChartSize();
+        })
+
         initWidgetHeight();
         getfilterList();
-        getOverviewData('BU1','Conversion Cost/EQU');
+        getBuList('JIT PBU');
 
-        angular.element('.fullscreen').bind('click', function() {
-          
-            initializeChartSize();
-        })
-
-        $(window).resize(function(){
-            initializeChartSize();
-        })
-        
     });
-
-
-    var initWidgetHeight = function(){
-        var height = $(window).height() - 63.99 - 77.78 -18.89-50;
-        $('.page-content').css('min-height',height);
-
-        widgetHeight = (height -77.8 -60) / 2 -20;
-        $('.yfops-widget').css('min-height',widgetHeight);
-    }
-
 
     //单轴
     var trendOption1 = {
@@ -232,7 +227,9 @@
             {
                 type: 'value',
                 name: '',
-                interval: 20,
+                min:0,
+                max:6000,
+                interval: 1000,
                 axisLabel: {
                     formatter: '{value}'
                 }
@@ -285,6 +282,31 @@
         ]
     };
 
+    var initSparkline = function(){
+
+        $(".widget_sparkline_bar").each(function(i,v){
+            
+            var color = '#a6a6a6';
+
+            $(v).sparkline($(v).data('array').split(','), {
+                type: 'bar',
+                width: '100',
+                barWidth: 10,
+                height: '34',
+                barColor: color,
+                negBarColor: color
+            });
+        })
+    };
+
+    var initWidgetHeight = function(){
+        var height = $(window).height() - 63.99 - 77.78 -18.89-50;
+        $('.page-content').css('min-height',height);
+
+        widgetHeight = (height -77.8 -60) / 2 ;
+        $('.yfops-widget').css('min-height',widgetHeight);
+        $('.yfops-map').css('min-height',widgetHeight -4);
+    };
 
     var initEchart = function(data){
 
@@ -295,17 +317,22 @@
         console.log(data);
         
         $scope.title1 = data.conversionCostDivideEQUTrendMonth[0].lable;
-        getBarLineChart(data.conversionCostDivideEQUTrendMonth, 'chart1',trendOption2);
+        getBarLineChartDefault(data.conversionCostDivideEQUTrendMonth, 'chart1',trendOption2);
         
         $scope.title2 = data.conversionCostDivideEQUClassMonth[0].lable;
         getBarLineChart(data.conversionCostDivideEQUClassMonth, 'chart2',trendOption2);
 
-        $scope.title3 = data.conversionCostDivideEQUClassMonth[0].lable;
-        getMixBarChart(data.conversionCostDivideEQUClassMonth, 'chart3',ageOption);
+        $scope.title3 = data.conversionCostDivideEQUTrendYear[0].lable;
+        getBarLineChartDefault(data.conversionCostDivideEQUTrendYear, 'chart3',trendOption2);
+        
+        $scope.title4 = data.conversionCostDivideEQUClassYear[0].lable;
+        getBarLineChart(data.conversionCostDivideEQUClassYear, 'chart4',trendOption2);
 
-        $scope.title4 = data.conversionCostDivideEQUClassMonth[0].lable;
-        getMixBarChart(data.conversionCostDivideEQUClassMonth, 'chart4',ageOption);
+        $scope.title5 = data.ciSavingTrendMonth[0].lable;
+        getBarLineChart(data.ciSavingTrendMonth, 'chart5',trendOption2);
 
+        $scope.title6 = data.ciSavingTrendYear[0].lable;
+        getBarLineChart(data.ciSavingTrendYear, 'chart6',trendOption2);
     };
 
     var initializeChartSize = function() {
@@ -314,16 +341,6 @@
             initEchart($scope.overviewData);
         },80);
     };
-
-    var getfilterListSuccess = function(list){
-
-        $scope.filterList = new Array();
-        for(var i=0;i<list.length;i++){
-            
-            $scope.filterList.push(list[i].businessCat3);
-
-        }
-    }
 
     var getfilterList = function(){
 
@@ -335,20 +352,148 @@
 
         }).error(function(){
             ///////假数据
-            $scope.filterListObject = queryFilter.filterList;
+            $scope.filterListObject = bbpQueryFilter.filterList;
             getfilterListSuccess($scope.filterListObject);
         });
-    }
+    };
 
-    $scope.setFilter = function(costType){
-        console.log(costType);
-        getOverviewData($rootScope.entityName || 'BU1',costType);
-    }
+    var getfilterListSuccess = function(list){
 
+        $scope.filterList = new Array();
+        for(var i=0;i<list.length;i++){
+            
+            $scope.filterList.push(list[i].businessCat3);
+        }
+
+        $scope.setFilter($scope.filterList[0]);
+    };
+
+    $scope.setFilter = function(filter){
+        console.log(filter);
+        $scope.currentFilter = filter;
+        getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+    };
+
+    var getBuList = function(pubCodeShortName){
+        
+        $.get($rootScope.settings.api + '/finance/queryBuList').success(function(json){
+            ///////真数据
+            $scope.BuListObject = json.BuList;
+            getBuListSuccess($scope.BuListObject);
+            // getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+            refreshChinaMap($rootScope.buCodeShortName);
+
+        }).error(function(){
+
+            console.log('请求error,取假数据');
+            $scope.BuListObject = queryBuList.BuList;
+            getBuListSuccess($scope.BuListObject);
+            // getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+            refreshChinaMap($rootScope.buCodeShortName);
+        });
+    };
+
+    var getBuListSuccess = function(buList){
+
+        $rootScope.BuList = new Object();
+        for(var i=0;i<buList.length;i++){
+            var shortName = buList[i].buCodeShortName;
+            if(shortName == null) continue;
+
+            if( $rootScope.BuList[shortName] == undefined){
+                $rootScope.BuList[shortName] = new Array();
+            }else{
+                $rootScope.BuList[shortName].push(buList[i]);
+            }
+        }
+
+        //bu列表
+        $rootScope.BuNameList = Object.getOwnPropertyNames($rootScope.BuList);
+        $rootScope.BuNameList = $rootScope.BuNameList.sort();
+        $rootScope.pubCodeShortName = buList[0].pubCodeShortName;
+        $rootScope.buCodeShortName = $rootScope.BuList[$rootScope.BuNameList[0]][0].buCodeShortName;
+    };
+
+    $scope.selectBU = function(buShortName,$event){
+        
+        $rootScope.buCodeShortName = buShortName;
+        initSparkline();
+
+        $('.yfops-sparkline li.active').removeClass('active');
+        $($event.currentTarget).addClass('active');
+
+        var v = $($event.currentTarget).find('.widget_sparkline_bar');
+        $(v).sparkline([8,7,9,8.5,8,8.2], {
+            type: 'bar',
+            width: '100',
+            barWidth: 10,
+            height: '34',
+            barColor: '#5b9bd1',
+            negBarColor: '#5b9bd1'
+        });
+
+        // var buShortName = $($event.currentTarget).find('.yfops-sparkline-title').html();
+        getOverviewData(buShortName);
+        refreshChinaMap(buShortName);
+    };
+
+    var refreshChinaMap = function(buShortName){
+
+        var locations = new Array();
+        var keys = $rootScope.BuList[buShortName];
+        console.log(keys);
+
+        for(var i=0;i<keys.length;i++){
+            var entity = {
+                "id": keys[i].entityCode,
+                "title": keys[i].entityShortName,
+                "description": keys[i].entityShortName,
+                // "pin": "circular",
+                "x": keys[i].axisX || 0.9024 + Math.random()*0.018,
+                "y": keys[i].axisY || 0.4076 - Math.random()*0.018
+            }
+            locations.push(entity);
+        }
+
+        var option = angular.copy(mapOption);
+        option.levels[0].locations = locations;
+        initChinaMap(option);
+    };
+
+    var initChinaMap = function(option) {
+
+        if ($('#mapplic').size() === 0) {
+            return;
+        }
+
+        $('#mapplic').html('').data('mapplic', null);
+
+        var h = widgetHeight-2;
+        $('#mapplic').mapplic({
+            source: option,
+            height: h,
+            animate: true,
+            sidebar: false,
+            minimap: false,
+            locations: false,
+            deeplinking: false,
+            fullscreen: false,
+            hovertip: true,
+            zoombuttons: true,
+            clearbutton: true,
+            developer: false,
+            maxscale: 5,
+            skin: 'mapplic-dark',
+            zoom: true
+        });
+    };
+
+    $scope.$on('onSelectedPBU', function(buShortName){
+        $rootScope.buCodeShortName = buShortName;
+        getOverviewData(buShortName || 'BU1', $scope.currentFilter);
+    });
 
     var getOverviewData = function(entityName,costType){
-        
-       
 
         var param = {
            "entityName":entityName,
@@ -359,16 +504,15 @@
             
             $scope.overviewData = json;
             initEchart($scope.overviewData);
-            
+
         }).error(function(){
              ////假数据
             $scope.overviewData = bbpQueryOverviewData;
             initEchart($scope.overviewData);
         });
-        
-    }
+    };
 
-    var getBarLineChart = function(data, chart,option){
+    var getBarLineChartDefault = function(data, chart,option){
         //x
         var xAxisObject = new Object();
         for(var i=0; i < data.length; i++){
@@ -417,7 +561,58 @@
 
         var chart = echarts.init(document.getElementById(chart),theme);
         chart.setOption(turnoverDaysOption);
-    }
+    };
+
+    var getBarLineChart = function(data, chart,option){
+        //x
+        var xAxisObject = new Object();
+        for(var i=0; i < data.length; i++){
+            var item = data[i];
+            if(xAxisObject[item.xAxisValue] == undefined){
+                xAxisObject[item.xAxisValue] = new Object();
+            }
+
+            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue;
+        }
+
+        var xAxisData = Object.getOwnPropertyNames(xAxisObject);
+
+        var series = new Array();
+        var legend = Object.getOwnPropertyNames(xAxisObject[xAxisData[0]]);
+
+        for(var i=0; i < xAxisData.length; i++){
+
+            for(var j=0; j<legend.length; j++){
+                
+                if( series[j] == undefined){
+                    series[j] = new Object();
+                    series[j].name = legend[j];
+                    series[j].type = 'line';
+                    // series[j].stack = stack;
+                    series[j].data = new Array();
+
+                    if(legend[j].indexOf('T1') != -1 || legend[j].indexOf('T2') != -1 || legend[j].indexOf('T3') != -1) {
+                        series[j].type = 'line';
+                        series[j].yAxisIndex = 1;
+                    }else{
+                        series[j].type = 'bar';
+                        series[j].yAxisIndex = 0;
+                    }
+                }
+
+                series[j].data.push(xAxisObject[xAxisData[i]][legend[j]] || 0);
+            }
+        }
+
+        //set chart option
+        var turnoverDaysOption = angular.copy(option);
+        turnoverDaysOption.legend.data = legend;
+        turnoverDaysOption.xAxis[0].data = xAxisData;
+        turnoverDaysOption.series = series;
+
+        var chart = echarts.init(document.getElementById(chart),theme);
+        chart.setOption(turnoverDaysOption);
+    };
 
     var getMixBarChart = function(data,chart,option){
 
@@ -429,7 +624,7 @@
                 xAxisObject[item.xAxisValue] = new Object();
             }
 
-            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue*100; //TODO
+            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue; //TODO
         }
 
         var xAxisData = Object.getOwnPropertyNames(xAxisObject);
@@ -464,7 +659,7 @@
 
         var chart = echarts.init(document.getElementById(chart),theme);
         chart.setOption(stockageMonthOption);
-    }
+    };
 
 
     // set sidebar closed and body solid layout mode

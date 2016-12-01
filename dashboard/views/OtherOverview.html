@@ -1,4 +1,4 @@
-<div class="navbar-actions"  ng-class="{'BBPOverview':'active','BBPFactory':'active'}[$parent.$state.current.name]">
+<div class="navbar-actions"  ng-class="{'HROverview':'active','HRFactory':'active'}[$parent.$state.current.name]">
 
     <div class="btn-group-img btn-group">
         <button type="button" class="yfops-top-btn btn btn-sm md-skip dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
@@ -45,10 +45,10 @@
                     <div class="display">
                         <div class="number">
                             <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="7800" ng-bind="overviewData.conversionCost[0].axisValue | number:1">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.conversionCost[0].unit">天</span>
+                                <span data-counter="counterup" data-value="7800" ng-bind="overviewData.mu[0].axisValue | number:1">0</span>
+                                <span class="yfops-unit" ng-bind="overviewData.mu[0].unit">天</span>
                             </h3>
-                            <small ng-bind="overviewData.conversionCost[0].lable">库存金额</small>
+                            <small ng-bind="overviewData.mu[0].lable">库存金额</small>
                         </div>
                     </div>
                     <div class="progress-info">
@@ -69,10 +69,10 @@
                     <div class="display">
                         <div class="number">
                             <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="1349" ng-bind="overviewData.equ[0].axisValue | number:1">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.equ[0].unit">天</span>
+                                <span data-counter="counterup" data-value="1349" ng-bind="overviewData.activeDimissionRate[0].axisValue | number">0</span>
+                                <span class="yfops-unit" ng-bind="overviewData.activeDimissionRate[0].unit">天</span>
                             </h3>
-                            <small ng-bind="overviewData.equ[0].lable">周转天数</small>
+                            <small ng-bind="overviewData.activeDimissionRate[0].lable">周转天数</small>
                         </div>
                     </div>
                     <div class="progress-info">
@@ -93,21 +93,21 @@
                     <div class="display">
                         <div class="number">
                             <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="567"  ng-bind="overviewData.conversionCostDivideEQU[0].axisValue">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.conversionCostDivideEQU[0].unit"></span>
+                                <span data-counter="counterup" data-value="1349" ng-bind="overviewData.personnelExpensesWithBU[0].axisValue | number">0</span>
+                                <span class="yfops-unit" ng-bind="overviewData.personnelExpensesWithBU[0].unit">天</span>
                             </h3>
-                            <small ng-bind="overviewData.conversionCostDivideEQU[0].lable">库存周转率</small>
+                            <small ng-bind="overviewData.personnelExpensesWithBU[0].lable">周转天数</small>
                         </div>
                     </div>
                     <div class="progress-info">
                         <div class="progress">
-                            <span style="width: 45%;" class="progress-bar progress-bar-success blue-sharp">
-                                <span class="sr-only">45% grow</span>
+                            <span style="width: 85%;" class="progress-bar progress-bar-success blue-sharp">
+                                <span class="sr-only">85% change</span>
                             </span>
                         </div>
                         <!-- <div class="status">
-                            <div class="status-title"> grow </div>
-                            <div class="status-number"> 45% </div>
+                            <div class="status-title"> change </div>
+                            <div class="status-number"> 85% </div>
                         </div> -->
                     </div>
                 </div>
@@ -118,23 +118,23 @@
                     <div class="display">
                         <div class="number">
                             <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="567"  ng-bind="overviewData.ciSaving[0].axisValue | number:1">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.ciSaving[0].unit">0</span>
+                                <span data-counter="counterup" data-value="1349" ng-bind="overviewData.personnelExpensesWithCompany[0].axisValue | number">0</span>
+                                <span class="yfops-unit" ng-bind="overviewData.personnelExpensesWithCompany[0].unit">天</span>
                             </h3>
-                            <small class="yfops-unit" ng-bind="overviewData.ciSaving[0].lable">未开票销售</small>
+                            <small ng-bind="overviewData.personnelExpensesWithCompany[0].lable">周转天数</small>
                         </div>
                     </div>
-                    <!-- <div class="progress-info">
+                    <div class="progress-info">
                         <div class="progress">
-                            <span style="width: 45%;" class="progress-bar progress-bar-success blue-sharp">
-                                <span class="sr-only">45% grow</span>
+                            <span style="width: 85%;" class="progress-bar progress-bar-success blue-sharp">
+                                <span class="sr-only">85% change</span>
                             </span>
                         </div>
-                        <div class="status">
-                            <div class="status-title"> grow </div>
-                            <div class="status-number"> 45% </div>
-                        </div>
-                    </div> -->
+                        <!-- <div class="status">
+                            <div class="status-title"> change </div>
+                            <div class="status-number"> 85% </div>
+                        </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -232,7 +232,7 @@
 
     <div class="col-lg-6 col-md-12 col-sm-12">
         <!-- BEGIN PORTLET-->
-        <div class="portlet light bordered   yfops-widget">
+        <div class="portlet light bordered  yfops-widget">
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-share font-red-sunglo hide"></i>
@@ -270,6 +270,52 @@
             <div class="portlet-body">
                 
             <div id="chart6" class="ops-chart" style="height:400px;"></div>
+                
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <!-- BEGIN PORTLET-->
+        <div class="portlet light bordered  yfops-widget">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="icon-share font-red-sunglo hide"></i>
+                    <span class="caption-subject font-dark bold uppercase" ng-bind="title7">月度</span>
+                </div>
+                <div class="actions">
+                    <a class="btn btn-circle fa fa-download btn-default " href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                </div>
+               
+            </div>
+            <div class="portlet-body">
+                
+            <div id="chart7" class="ops-chart" style="height:400px;"></div>
+                
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <!-- BEGIN PORTLET-->
+        <div class="portlet light bordered  yfops-widget">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="icon-share font-red-sunglo hide"></i>
+                    <span class="caption-subject font-dark bold uppercase" ng-bind="title8">月度</span>
+                </div>
+                <div class="actions">
+                    <a class="btn btn-circle fa fa-download btn-default " href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                </div>
+               
+            </div>
+            <div class="portlet-body">
+                
+            <div id="chart8" class="ops-chart" style="height:400px;"></div>
                 
             </div>
         </div>

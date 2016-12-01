@@ -9,18 +9,12 @@
     
     $scope.$on('$viewContentLoaded', function() {
         
+        angular.element('.fullscreen').bind('click', function() {
+            initializeChartSize();
+        })
+
         initWidgetHeight();
         getfilterList();
-        getOverviewData('BU1','Conversion Cost/EQU');
-
-        angular.element('.fullscreen').bind('click', function() {
-          
-            initializeChartSize();
-        })
-
-        $(window).resize(function(){
-            initializeChartSize();
-        })
         
     });
 
@@ -307,6 +301,21 @@
         },80);
     };
 
+    var getfilterList = function(){
+        
+        ///////真数据
+        $http.get($rootScope.settings.api + '/hr/queryFilter').success(function(json){
+            
+            $scope.filterListObject = json.filterList;
+            getfilterListSuccess($scope.filterListObject);
+
+        }).error(function(){
+            ///////假数据
+            $scope.filterListObject = hrQueryFilter.filterList;
+            getfilterListSuccess($scope.filterListObject);
+        });
+    }
+
     var getfilterListSuccess = function(list){
 
         $scope.filterList = new Array();
@@ -315,21 +324,7 @@
             $scope.filterList.push(list[i].businessCat3);
 
         }
-    }
-
-    var getfilterList = function(){
-        
-        ///////真数据
-        $http.get($rootScope.settings.api + '/bbp/queryFilter').success(function(json){
-            
-            $scope.filterListObject = json.filterList;
-            getfilterListSuccess($scope.filterListObject);
-
-        }).error(function(){
-            ///////假数据
-            $scope.filterListObject = queryFilter.filterList;
-            getfilterListSuccess($scope.filterListObject);
-        });
+        $scope.setFilter($scope.filterList[0]);
     }
 
     $scope.setFilter = function(costType){
@@ -337,6 +332,10 @@
         getOverviewData($rootScope.entityName || 'BU1',costType);
     }
 
+    $scope.$on('onSelectedPBU', function(buShortName){
+        $rootScope.buCodeShortName = buShortName;
+        getOverviewData(buShortName || 'BU1', $scope.currentFilter);
+    });
 
     var getOverviewData = function(entityName,costType){
         
@@ -345,7 +344,7 @@
            "costType":costType
         };
 
-        $http.post($rootScope.settings.api + '/bbp/queryOverviewData' , param).success(function(json){
+        $http.post($rootScope.settings.api + '/hr/queryFactoryData' , param).success(function(json){
             
             $scope.overviewData = json;
             initEchart($scope.overviewData);
@@ -386,7 +385,7 @@
                     // series[j].stack = stack;
                     series[j].data = new Array();
 
-                    if(xAxisObject[xAxisData[i]][legend[j]]> 100) {
+                    if(legend[j].indexOf('Actual') != -1) {
                         series[j].type = 'bar';
                         series[j].yAxisIndex = 0;
                     }else{
