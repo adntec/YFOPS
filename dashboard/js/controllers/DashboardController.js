@@ -27,11 +27,16 @@ Array.prototype.unique = function(){
             x:40,
             y:10,
             x2:30,
-            y2:98
+            y2:118
         },
         xAxis: [
             {
                 type: 'category',
+                axisLabel: {
+                    interval:0,
+                    rotate:45,
+                    margin:6,
+                }
                 // data: ['2016-1','2016-2','2016-3','2016-4','2016-5','2016-6','2016-7','2016-8','2016-9','2016-10','2016-11','2016-12']
             }
         ],
@@ -51,32 +56,10 @@ Array.prototype.unique = function(){
             }
         ],
         series: [
-            // {
-            //     name:'Inventory',
-            //     type:'bar',
-            //     data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
-            // },
-            // {
-            //     name:'OBP Inventory',
-            //     type:'bar',
-            //     data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
-            // },
-            // {
-            //     name:'Actual days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
-            // },
-            // {
-            //     name:'T3 days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[4.0, 4.2, 4.3, 4.5, 4.3, 4.2, 4.3, 4.4, 4.0, 4.5, 4.0, 2.2]
-            // }
         ],
         dataZoom:[
             {
-                start: 50,
+                start: 0,
                 end: 100,
                 handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
                 handleSize: '60%',
@@ -111,11 +94,16 @@ Array.prototype.unique = function(){
             x:40,
             y:10,
             x2:30,
-            y2:128
+            y2:138
         },
         xAxis: [
             {
                 type: 'category',
+                axisLabel: {
+                    interval:0,
+                    rotate:45,
+                    margin:6,
+                }
                 // data: ['2016-1','2016-2','2016-3','2016-4','2016-5','2016-6','2016-7','2016-8','2016-9','2016-10','2016-11','2016-12']
             }
         ],
@@ -145,32 +133,11 @@ Array.prototype.unique = function(){
             }
         ], 
         series: [
-            // {
-            //     name:'Inventory',
-            //     type:'bar',
-            //     data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
-            // },
-            // {
-            //     name:'OBP Inventory',
-            //     type:'bar',
-            //     data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
-            // },
-            // {
-            //     name:'Actual days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
-            // },
-            // {
-            //     name:'T3 days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[4.0, 4.2, 4.3, 4.5, 4.3, 4.2, 4.3, 4.4, 4.0, 4.5, 4.0, 2.2]
-            // }
+          
         ],
         dataZoom:[
             {
-                start: 50,
+                start: 0,
                 end: 100,
                 handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
                 handleSize: '60%',
@@ -203,11 +170,16 @@ Array.prototype.unique = function(){
             x:38,
             y:10,
             x2:20,
-            y2:98
+            y2:108
         },
         xAxis: [
             {
                 type: 'category',
+                axisLabel: {
+                    interval:0,
+                    rotate:45,
+                    margin:6,
+                }
                 // data: ['2016-1','2016-2','2016-3','2016-4','2016-5','2016-6','2016-7','2016-8','2016-9','2016-10','2016-11','2016-12']
             }
         ],
@@ -224,30 +196,7 @@ Array.prototype.unique = function(){
             }
         ],
         series: [
-            // {
-            //     name:'x<=1',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[30, 10, 20, 30, 30, 10, 20, 30,30, 10,30, 10]
-            // },
-            // {
-            //     name:'1<x<=7',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[20,30, 40, 10, 20, 30, 40, 10, 20, 30, 20, 30]
-            // },
-            // {
-            //     name:'7<x<=30',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[40, 50, 10, 10, 40, 50, 10, 10,40, 50,40, 50]
-            // },
-            // {
-            //     name:'x>30',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[10, 10, 30, 50, 10, 10, 30, 50,10, 10,10, 10]
-            // }
+           
         ],
         
         dataZoom:[
@@ -422,11 +371,27 @@ Array.prototype.unique = function(){
             return;
         }
 
-        // console.log($scope.overviewData);
-        
+        var valueArray = [data.overviewStockAmount,data.overviewTurnoverDays,data.overviewTurnoverRate,data.overviewUnbilledSell];
+        $scope.values = new Array();
+        for(var i=0;i<valueArray.length;i++){
+            $scope.values[i] = new Object();
+            if(valueArray[i][0].axisValue > valueArray[i][1].axisValue ){
+                $scope.values[i].state = 'up';
+            }else if(valueArray[i][0].axisValue < valueArray[i][1].axisValue){
+                $scope.values[i].state = 'down';
+            }else{
+                $scope.values[i].state = 'equals';
+            }
+            $scope.values[i].axisValue = valueArray[i][0].axisValue;
+            $scope.values[i].percent = (valueArray[i][1].axisValue / valueArray[i][0].axisValue)*100;
+            $scope.values[i].lable = valueArray[i][0].lable;
+            $scope.values[i].axis = valueArray[i][0].axis;
+            $scope.values[i].unit = valueArray[i][0].unit;
+        }
+
         $scope.title1 = data.overviewTurnoverDaysMonth[0].lable;
         getBarLineChart(data.overviewTurnoverDaysMonth, 'chart1',trendOption2);
-        
+
         $scope.title2 = data.overviewStockageMonth[0].lable;
         getMixBarChart(data.overviewStockageMonth, 'chart2',ageOption);
 
@@ -481,7 +446,7 @@ Array.prototype.unique = function(){
             ///////真数据
             $scope.BuListObject = json.BuList;
             getBuListSuccess($scope.BuListObject);
-            getOverviewData($scope.entityShortName);
+            getOverviewData($rootScope.entityShortName);
             refreshChinaMap($rootScope.buCodeShortName);
 
         }).error(function(){
@@ -489,7 +454,7 @@ Array.prototype.unique = function(){
             console.log('请求error,取假数据');
             $scope.BuListObject = queryBuList.BuList;
             getBuListSuccess($scope.BuListObject);
-            getOverviewData($scope.entityShortName);
+            getOverviewData($rootScope.entityShortName);
             refreshChinaMap($rootScope.buCodeShortName);
         });
         
@@ -497,14 +462,14 @@ Array.prototype.unique = function(){
 
     $scope.$on('onSelectedPBU', function(scope,buShortName){
         $rootScope.buCodeShortName = buShortName;
-        $scope.entityShortName = buShortName;
-        getOverviewData($scope.entityShortName);
+        $rootScope.entityShortName = buShortName;
+        getOverviewData($rootScope.entityShortName);
     });
 
     $scope.selectBU = function(buShortName,$event){
         
         $rootScope.buCodeShortName = buShortName;
-        $scope.entityShortName = buShortName;
+        $rootScope.entityShortName = buShortName;
         initSparkline();
 
         $('.yfops-sparkline li.active').removeClass('active');
@@ -539,10 +504,10 @@ Array.prototype.unique = function(){
                 "id": keys[i].entityCode,
                 "title": keys[i].entityShortName,
                 "description": keys[i].entityShortName,
-                "link":"#/search/finance/"+keys[i].entityShortName,
+                "link":"#/finance/"+keys[i].entityShortName,
                 // "pin": "circular",
-                "x": keys[i].axisX || 0.9024 + Math.random()*0.018,
-                "y": keys[i].axisY || 0.4076 - Math.random()*0.018
+                "x": keys[i].axisX || 0,
+                "y": keys[i].axisY || 0
             }
             locations.push(entity);
         }
@@ -606,6 +571,7 @@ Array.prototype.unique = function(){
                     series[j].name = legend[j];
                     series[j].type = 'bar';
                     series[j].stack = stack;
+                    // series[j].formatter = '{value}%';
                     series[j].data = new Array();
                 }
 
@@ -688,11 +654,8 @@ Array.prototype.unique = function(){
     $rootScope.settings.layout.pageBodySolid = false;
     $rootScope.settings.layout.pageSidebarClosed = false;
 
-    // console.log('params');
-    // console.log($state.params['id']);
-
-    $scope.entityShortName = $state.params['id'] || "JIT PBU";
-    console.log('shortName:' + $scope.entityShortName);
+    $rootScope.entityShortName = $state.params['id'] || "JIT PBU";
+    console.log('shortName:' + $rootScope.entityShortName);
     
 
 }]);

@@ -78,7 +78,7 @@ body,.page-header .navbar .navbar-nav>li>a,.page-header .navbar .navbar-nav .dro
 	display: none;
 	position:absolute;
 	right: 30px;
-    top: 25px!important;
+    top: 10px!important;
 	z-index: 100!important;
 }
 .navbar-actions.active{

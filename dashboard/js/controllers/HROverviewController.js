@@ -1,5 +1,5 @@
 ;angular.module('SeanApp')
-.controller('HROverviewController',['$rootScope', '$scope','$http', '$timeout','$window', function($rootScope, $scope, $http, $timeout,$window) {
+.controller('HROverviewController',['$rootScope', '$scope','$http', '$timeout','$window','$state', function($rootScope, $scope, $http, $timeout,$window,$state) {
 
     var widgetHeight;
     $scope.$on('ngRepeatFinished', function(repeatFinishedEvent) {
@@ -25,7 +25,7 @@
 
         initWidgetHeight();
         getfilterList();
-        getBuList('JIT PBU');
+        getBuList($rootScope.entityShortName);
 
     });
 
@@ -63,32 +63,11 @@
                     formatter: function(value){
                         return value;
                     }
-                }
+                },
+                splitLine: {show: false}
             }
         ],
         series: [
-            // {
-            //     name:'Inventory',
-            //     type:'bar',
-            //     data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
-            // },
-            // {
-            //     name:'OBP Inventory',
-            //     type:'bar',
-            //     data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
-            // },
-            // {
-            //     name:'Actual days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
-            // },
-            // {
-            //     name:'T3 days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[4.0, 4.2, 4.3, 4.5, 4.3, 4.2, 4.3, 4.4, 4.0, 4.5, 4.0, 2.2]
-            // }
         ],
         dataZoom:[
             {
@@ -122,14 +101,19 @@
         },
         grid:{
             show:false,
-            x:40,
+            x:30,
             y:10,
-            x2:30,
+            x2:50,
             y2:128
         },
         xAxis: [
             {
                 type: 'category',
+                axisLabel: {
+                    interval:0,
+                    rotate:45,
+                    margin:6,
+                },
                 // data: ['2016-1','2016-2','2016-3','2016-4','2016-5','2016-6','2016-7','2016-8','2016-9','2016-10','2016-11','2016-12']
             }
         ],
@@ -137,49 +121,25 @@
             {
                 type: 'value',
                 name: '',
-                // min: 0,
-                // max: 250,
-                // interval: 50,
                 axisLabel: {
-                    formatter: function(value){
-                        return value;
-                    }
-                }
+                    formatter: '{value}'
+                },
+                splitLine: {show: false}
             },
+
             {
                 type: 'value',
                 name: '',
-                // min: 0,
-                // max: 25,
-                // interval: 5,
                 axisLabel: {
-                    formatter: '{value}'
-                }
+                    formatter: function(value){
+                        var val = value / 10000;
+                        return val+'万';
+                    }
+                },
+                splitLine: {show: false}
             }
         ],
         series: [
-            // {
-            //     name:'Inventory',
-            //     type:'bar',
-            //     data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
-            // },
-            // {
-            //     name:'OBP Inventory',
-            //     type:'bar',
-            //     data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
-            // },
-            // {
-            //     name:'Actual days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
-            // },
-            // {
-            //     name:'T3 days',
-            //     type:'line',
-            //     yAxisIndex: 1,
-            //     data:[4.0, 4.2, 4.3, 4.5, 4.3, 4.2, 4.3, 4.4, 4.0, 4.5, 4.0, 2.2]
-            // }
         ],
         dataZoom:[
             {
@@ -223,6 +183,11 @@
         xAxis: [
             {
                 type: 'category',
+                axisLabel: {
+                    interval:0,
+                    rotate:45,
+                    margin:6,
+                },
                 // data: ['2016-1','2016-2','2016-3','2016-4','2016-5','2016-6','2016-7','2016-8','2016-9','2016-10','2016-11','2016-12']
             }
         ],
@@ -232,34 +197,11 @@
                 name: '',
                 axisLabel: {
                     formatter: '{value}'
-                }
+                },
+                splitLine: {show: false}
             }
         ],
         series: [
-            // {
-            //     name:'x<=1',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[30, 10, 20, 30, 30, 10, 20, 30,30, 10,30, 10]
-            // },
-            // {
-            //     name:'1<x<=7',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[20,30, 40, 10, 20, 30, 40, 10, 20, 30, 20, 30]
-            // },
-            // {
-            //     name:'7<x<=30',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[40, 50, 10, 10, 40, 50, 10, 10,40, 50,40, 50]
-            // },
-            // {
-            //     name:'x>30',
-            //     type:'bar',
-            //     stack:'库龄',
-            //     data:[10, 10, 30, 50, 10, 10, 30, 50,10, 10,10, 10]
-            // }
         ],
         
         dataZoom:[
@@ -315,19 +257,35 @@
             return;
         }
 
-        console.log(data);
+        var valueArray = [data.totalLaborhours,data.equ,data.totalLaborhoursDivideEQU];
+        $scope.values = new Array();
+        for(var i=0;i<valueArray.length;i++){
+            $scope.values[i] = new Object();
+            if(valueArray[i][0].axisValue > valueArray[i][1].axisValue ){
+                $scope.values[i].state = 'up';
+            }else if(valueArray[i][0].axisValue < valueArray[i][1].axisValue){
+                $scope.values[i].state = 'down';
+            }else{
+                $scope.values[i].state = 'equals';
+            }
+            $scope.values[i].axisValue = valueArray[i][0].axisValue;
+            $scope.values[i].percent = (valueArray[i][1].axisValue / valueArray[i][0].axisValue)*100;
+            $scope.values[i].lable = valueArray[i][0].lable;
+            $scope.values[i].axis = valueArray[i][0].axis;
+            $scope.values[i].unit = valueArray[i][0].unit;
+        }
         
         $scope.title1 = data.totalLaborhoursDivideEQUTrendMonth[0].lable;
         getBarLineChart(data.totalLaborhoursDivideEQUTrendMonth, 'chart1',trendOption2);
         
         $scope.title2 = data.totalLaborhoursDivideEQUClassMonth[0].lable;
-        getMixBarChart(data.totalLaborhoursDivideEQUClassMonth, 'chart2',ageOption);
+        getLineMixBarChart(data.totalLaborhoursDivideEQUClassMonth, 'chart2',ageOption);
 
         $scope.title3 = data.totalLaborhoursDivideEQUTrendYear[0].lable;
-        getMixBarChart(data.totalLaborhoursDivideEQUTrendYear, 'chart3',ageOption);
+        getBarLineChart(data.totalLaborhoursDivideEQUTrendYear, 'chart3',trendOption2);
 
         $scope.title4 = data.totalLaborhoursDivideEQUClassYear[0].lable;
-        getMixBarChart(data.totalLaborhoursDivideEQUClassYear, 'chart4',ageOption);
+        getLineMixBarChart(data.totalLaborhoursDivideEQUClassYear, 'chart4',ageOption);
     };
 
     var initializeChartSize = function() {
@@ -366,7 +324,7 @@
     $scope.setFilter = function(filter){
         console.log(filter);
         $scope.currentFilter = filter;
-        getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+        getOverviewData($rootScope.entityShortName, $scope.currentFilter);
     };
 
     var getBuList = function(pubCodeShortName){
@@ -412,6 +370,7 @@
     $scope.selectBU = function(buShortName,$event){
         
         $rootScope.buCodeShortName = buShortName;
+        $rootScope.entityShortName = buShortName;
         initSparkline();
 
         $('.yfops-sparkline li.active').removeClass('active');
@@ -436,16 +395,17 @@
 
         var locations = new Array();
         var keys = $rootScope.BuList[buShortName];
-        console.log(keys);
 
         for(var i=0;i<keys.length;i++){
             var entity = {
+                "action":"tooltip",
                 "id": keys[i].entityCode,
                 "title": keys[i].entityShortName,
                 "description": keys[i].entityShortName,
+                "link":"#/hr/"+keys[i].entityShortName,
                 // "pin": "circular",
-                "x": keys[i].axisX || 0.9024 + Math.random()*0.018,
-                "y": keys[i].axisY || 0.4076 - Math.random()*0.018
+                "x": keys[i].axisX || 0,
+                "y": keys[i].axisY || 0
             }
             locations.push(entity);
         }
@@ -470,8 +430,8 @@
             animate: true,
             sidebar: false,
             minimap: false,
-            locations: true,
-            deeplinking: true,
+            locations: false,
+            deeplinking: false,
             fullscreen: false,
             hovertip: true,
             zoombuttons: true,
@@ -485,13 +445,14 @@
 
     $scope.$on('onSelectedPBU', function(scope,buShortName){
         $rootScope.buCodeShortName = buShortName;
-        getOverviewData(buShortName || 'BU1', $scope.currentFilter);
+        $rootScope.entityShortName = buShortName;
+        getOverviewData( $rootScope.entityShortName, $scope.currentFilter);
     });
 
     var getOverviewData = function(entityName,costType){
 
         var param = {
-           "entityName":entityName,
+           "entityName":entityName  || 'BU1',
            "costType":costType
         };
 
@@ -537,10 +498,10 @@
 
                     if(xAxisObject[xAxisData[i]][legend[j]]> 100) {
                         series[j].type = 'bar';
-                        series[j].yAxisIndex = 0;
+                        series[j].yAxisIndex = 1;
                     }else{
                         series[j].type = 'line';
-                        series[j].yAxisIndex = 1;
+                        series[j].yAxisIndex = 0;
                     }
                 }
 
@@ -605,10 +566,73 @@
         chart.setOption(stockageMonthOption);
     }
 
+    var getLineMixBarChart = function(data,chart,option){
+
+        //x
+        var xAxisObject = new Object();
+        var typeObject = new Object();
+        for(var i=0; i < data.length; i++){
+            var item = data[i];
+            if(xAxisObject[item.xAxisValue] == undefined){
+                xAxisObject[item.xAxisValue] = new Object();
+                typeObject[item.xAxisValue] = new Object();
+            }
+
+            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue; //TODO
+            typeObject[item.xAxisValue][item.yAxisLabel] = data[i].axisNo; //TODO
+        }
+
+        console.log(chart);
+        console.log(typeObject);
+
+        var xAxisData = Object.getOwnPropertyNames(xAxisObject);
+                    
+
+        //y
+        var stack = data[0].lable;
+        var series = new Array();
+        var legend = Object.getOwnPropertyNames(xAxisObject[xAxisData[0]]);  //顺序问题
+        // var legend = ['x<=1','1<x<=7','7<x<=30','x>30'];
+
+        for(var i=0; i < xAxisData.length; i++){
+
+            for(var j=0; j<legend.length; j++){
+                
+                if( series[j] == undefined){
+                    series[j] = new Object();
+                    series[j].name = legend[j];
+                    series[j].type = 'bar';
+                    series[j].data = new Array();
+
+                    if(typeObject[xAxisData[i]][legend[j]] ==1){
+                        series[j].type = 'line';
+                    }else if(typeObject[xAxisData[i]][legend[j]] ==0){
+                        series[j].type = 'bar';
+                        series[j].stack = stack;
+                    }
+                }
+
+                series[j].data.push(xAxisObject[xAxisData[i]][legend[j]] || 0);
+            }
+        }
+
+        //set chart option
+        var stockageMonthOption = angular.copy(option);
+        stockageMonthOption.legend.data = legend;
+        stockageMonthOption.xAxis[0].data = xAxisData;
+        stockageMonthOption.series = series;
+
+        var chart = echarts.init(document.getElementById(chart),theme);
+        chart.setOption(stockageMonthOption);
+    };
+
 
     // set sidebar closed and body solid layout mode
     $rootScope.settings.layout.pageContentWhite = true;
     $rootScope.settings.layout.pageBodySolid = false;
     $rootScope.settings.layout.pageSidebarClosed = false;
+
+    $rootScope.entityShortName = $state.params['id'] || "JIT PBU";
+    console.log('shortName:' + $rootScope.entityShortName);
 
 }]);

@@ -1,3 +1,4 @@
+<h4 ng-bind="entityShortName">title</h4> 
 <div class="navbar-actions"  ng-class="{'HROverview':'active','HRFactory':'active'}[$parent.$state.current.name]">
 
     <div class="btn-group-img btn-group">
@@ -40,100 +41,27 @@
     </div>
     <div class="col-md-6 col-sm-6 yfops-widget">
         <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12 ">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat = "value in values">
                 <div class="dashboard-stat2 bordered">
                     <div class="display">
                         <div class="number">
                             <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="7800" ng-bind="overviewData.mu[0].axisValue | number:1">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.mu[0].unit">天</span>
+                                <span data-counter="counterup" data-value="7800" ng-bind="value.axisValue | number">0</span>
+                                <span class="yfops-unit" ng-bind="value.unit">元</span>
                             </h3>
-                            <small ng-bind="overviewData.mu[0].lable">库存金额</small>
+                            <small ng-bind="value.lable">库存金额</small>
                         </div>
                     </div>
                     <div class="progress-info">
                         <div class="progress">
-                            <span style="width: 76%;" class="progress-bar progress-bar-success blue-sharp">
-                                <span class="sr-only">76% progress</span>
+                            <span style="width: {{value.percent | number:1}}%;" class="progress-bar progress-bar-success blue-sharp">
+                                <span class="sr-only">{{value.percent | number:1}}% progress</span>
                             </span>
                         </div>
-                        <!-- <div class="status">
-                            <div class="status-title"> progress </div>
-                            <div class="status-number"> 76% </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="dashboard-stat2 bordered">
-                    <div class="display">
-                        <div class="number">
-                            <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="1349" ng-bind="overviewData.activeDimissionRate[0].axisValue | number">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.activeDimissionRate[0].unit">天</span>
-                            </h3>
-                            <small ng-bind="overviewData.activeDimissionRate[0].lable">周转天数</small>
+                        <div class="status">
+                            <div class="status-title" ng-bind="value.axis"> progress </div>
+                            <div class="status-number" > {{value.percent | number:1}}%</div>
                         </div>
-                    </div>
-                    <div class="progress-info">
-                        <div class="progress">
-                            <span style="width: 85%;" class="progress-bar progress-bar-success blue-sharp">
-                                <span class="sr-only">85% change</span>
-                            </span>
-                        </div>
-                        <!-- <div class="status">
-                            <div class="status-title"> change </div>
-                            <div class="status-number"> 85% </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="dashboard-stat2 bordered">
-                    <div class="display">
-                        <div class="number">
-                            <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="1349" ng-bind="overviewData.personnelExpensesWithBU[0].axisValue | number">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.personnelExpensesWithBU[0].unit">天</span>
-                            </h3>
-                            <small ng-bind="overviewData.personnelExpensesWithBU[0].lable">周转天数</small>
-                        </div>
-                    </div>
-                    <div class="progress-info">
-                        <div class="progress">
-                            <span style="width: 85%;" class="progress-bar progress-bar-success blue-sharp">
-                                <span class="sr-only">85% change</span>
-                            </span>
-                        </div>
-                        <!-- <div class="status">
-                            <div class="status-title"> change </div>
-                            <div class="status-number"> 85% </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="dashboard-stat2 bordered">
-                    <div class="display">
-                        <div class="number">
-                            <h3 class="font-blue-sharp">
-                                <span data-counter="counterup" data-value="1349" ng-bind="overviewData.personnelExpensesWithCompany[0].axisValue | number">0</span>
-                                <span class="yfops-unit" ng-bind="overviewData.personnelExpensesWithCompany[0].unit">天</span>
-                            </h3>
-                            <small ng-bind="overviewData.personnelExpensesWithCompany[0].lable">周转天数</small>
-                        </div>
-                    </div>
-                    <div class="progress-info">
-                        <div class="progress">
-                            <span style="width: 85%;" class="progress-bar progress-bar-success blue-sharp">
-                                <span class="sr-only">85% change</span>
-                            </span>
-                        </div>
-                        <!-- <div class="status">
-                            <div class="status-title"> change </div>
-                            <div class="status-number"> 85% </div>
-                        </div> -->
                     </div>
                 </div>
             </div>

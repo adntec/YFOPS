@@ -51,8 +51,8 @@ SeanApp.factory('settings', ['$rootScope', function($rootScope) {
         assetsPath: '../assets',
         globalPath: '../assets/global',
         layoutPath: '../assets/layouts/layout',
-        api:'http://127.0.0.1:8085',//'http://10.178.188.193:8085',
-        version:'0.01',
+        api:'http://127.0.0.1:8085',//'http://10.178.188.193:8085',  //
+        version:'0.02',
         debug: {
             request:false,
             requestError:false,
@@ -208,9 +208,9 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 }]
             }
         })
-        // Dashboard
+        // financeSearch
         .state('financeSearch', {
-            url: "/search/finance/:id",
+            url: "/finance/:id",
             templateProvider: ['$templateCache',function($templateCache){ 
                 return $templateCache.get('views/dashboard.html');
             }],
@@ -297,6 +297,39 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
             }
         })
 
+        // BBPSearch
+        .state('BBPSearch', {
+            url: "/bbp/:id",
+            templateProvider: ['$templateCache',function($templateCache){ 
+                return $templateCache.get('views/BBPOverview.html');
+            }],
+
+            data: {pageTitle: '库存总览'},
+            controller: "BBPOverviewController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'SeanApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.css',
+                            '../assets/global/plugins/mapplic/js/hammer.min.js',
+                            '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
+                            '../assets/global/plugins/mapplic/js/jquery.easing.js',
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.js',
+                            '../assets/global/plugins/jquery.sparkline.min.js',
+
+                            './js/theme/chartOptions.js',
+                            '../assets/global/plugins/echarts/echarts.js',
+                            './js/json/bbpQueryOverviewData.js',
+                            './js/json/queryFilter.js',
+                            './js/json/queryBuList.js'
+                        ] 
+                    })
+                }]
+            }
+        })
+
         // BBP
         .state('BBPFactory', {
             url: "/BBPFactory",
@@ -337,6 +370,39 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                         insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
                         files: [
 
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.css',
+                            '../assets/global/plugins/mapplic/js/hammer.min.js',
+                            '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
+                            '../assets/global/plugins/mapplic/js/jquery.easing.js',
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.js',
+                            '../assets/global/plugins/jquery.sparkline.min.js',
+
+                            './js/theme/chartOptions.js',
+                            '../assets/global/plugins/echarts/echarts.js',
+                            './js/json/hrQueryOverviewData.js',
+                            './js/json/hrQueryFilter.js',
+                            './js/json/queryBuList.js'
+                        ] 
+                    })
+                }]
+            }
+        })
+
+        // HRSearch
+        .state('HRSearch', {
+            url: "/hr/:id",
+            templateProvider: ['$templateCache',function($templateCache){ 
+                return $templateCache.get('views/HROverview.html');
+            }],
+
+            data: {pageTitle: '库存总览'},
+            controller: "HROverviewController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'SeanApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
                             '../assets/global/plugins/mapplic/mapplic/mapplic.css',
                             '../assets/global/plugins/mapplic/js/hammer.min.js',
                             '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
@@ -405,6 +471,38 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                             './js/theme/chartOptions.js',
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/otherQueryOverviewData.js', 
+                            './js/json/queryBuList.js'
+                        ] 
+                    })
+                }]
+            }
+        })
+
+        // HRSearch
+        .state('OtherSearch', {
+            url: "/other/:id",
+            templateProvider: ['$templateCache',function($templateCache){ 
+                return $templateCache.get('views/OtherOverview.html');
+            }],
+
+            data: {pageTitle: '库存总览'},
+            controller: "OtherOverviewController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'SeanApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.css',
+                            '../assets/global/plugins/mapplic/js/hammer.min.js',
+                            '../assets/global/plugins/mapplic/js/jquery.mousewheel.js',
+                            '../assets/global/plugins/mapplic/js/jquery.easing.js',
+                            '../assets/global/plugins/mapplic/mapplic/mapplic.js',
+                            '../assets/global/plugins/jquery.sparkline.min.js',
+
+                            './js/theme/chartOptions.js',
+                            '../assets/global/plugins/echarts/echarts.js',
+                            './js/json/otherQueryOverviewData.js',
                             './js/json/queryBuList.js'
                         ] 
                     })
