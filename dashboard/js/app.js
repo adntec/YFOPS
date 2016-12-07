@@ -52,7 +52,7 @@ SeanApp.factory('settings', ['$rootScope', function($rootScope) {
         globalPath: '../assets/global',
         layoutPath: '../assets/layouts/layout',
         api:'http://127.0.0.1:8085',//'http://10.178.188.193:8085',  //
-        version:'0.02',
+        version:'0.3.1',
         debug: {
             request:false,
             requestError:false,
@@ -155,6 +155,11 @@ SeanApp.controller('HeaderController', ['$rootScope','$scope','$http','$state', 
         },500);
    }
 
+   $rootScope.date = '2016年10月';
+   $http.get($rootScope.settings.api + "/queryDate",function(json){
+        $rootScope.date = json.date;
+   })
+
    $scope.selectPBU = function(pbuCodeShortName,$event){
         $rootScope.pbuCodeShortName = pbuCodeShortName;
         $rootScope.$broadcast('onSelectedPBU',pbuCodeShortName);
@@ -185,7 +190,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/dashboard.html');
             }],
 
-            data: {pageTitle: '库存总览'},
+            data: {pageTitle: '财务总览'},
             controller: "DashboardController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -200,6 +205,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                             '../assets/global/plugins/mapplic/mapplic/mapplic.js',
                             '../assets/global/plugins/jquery.sparkline.min.js',
 
+                            './js/theme/chartOptions.js',
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/overviewData.js',
                             './js/json/queryBuList.js'
@@ -215,7 +221,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/dashboard.html');
             }],
 
-            data: {pageTitle: '库存总览'},
+            data: {pageTitle: '财务总览'},
             controller: "DashboardController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -230,6 +236,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                             '../assets/global/plugins/mapplic/mapplic/mapplic.js',
                             '../assets/global/plugins/jquery.sparkline.min.js',
 
+                            './js/theme/chartOptions.js',
                             '../assets/global/plugins/echarts/echarts.js',
                             './js/json/overviewData.js',
                             './js/json/queryBuList.js'
@@ -246,7 +253,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/factory.html');
             }],
 
-            data: {pageTitle: '库存工厂'},
+            data: {pageTitle: '财务工厂'},
             controller: "FactoryController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {

@@ -1,10 +1,9 @@
 <!-- BEGIN HEADER -->
 <header class="page-header">
     <nav class="navbar mega-menu" role="navigation">
-        <div class="container-fluid">
-            
-            <!-- BEGIN HEADER MENU -->
-            <div class="nav-collapse collapse navbar-collapse navbar-responsive-collapse">
+        <div class="container-fluid" style="position:relative;">
+            <div class="clearfix navbar-fixed-top">
+                     <div class="nav-collapse collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li class="dropdown dropdown-fw " ng-class="{'dashboard':'active open selected','factory':'active open selected','financeSearch':'active open selected'}[$parent.$state.current.name]">
                         <a href="javascript:;" class="text-uppercase" ui-sref="dashboard">
@@ -16,7 +15,7 @@
                             </li>
                             <li ng-class="{'factory':'active'}[$parent.$state.current.name]">
                                 <a ui-sref="factory">
-                                    <i class="icon-bulb"></i> 工厂 </a>
+                                    <i class="icon-bulb"></i> 对标 </a>
                             </li>
                         </ul>
                     </li>
@@ -30,7 +29,7 @@
                                 </li>
                                 <li ng-class="{'BBPFactory':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="BBPFactory">
-                                        <i class="icon-bulb"></i> 工厂 </a>
+                                        <i class="icon-bulb"></i> 对标 </a>
                                 </li>
                             </ul>
                             
@@ -45,7 +44,7 @@
                                 </li>
                                 <li ng-class="{'HRFactory':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="HRFactory">
-                                        <i class="icon-bulb"></i> 工厂 </a>
+                                        <i class="icon-bulb"></i> 对标 </a>
                                 </li>
                             </ul>
                     </li>
@@ -59,7 +58,7 @@
                                 </li>
                                 <li ng-class="{'OtherFactory':'active','OtherSearch':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="OtherFactory">
-                                        <i class="icon-bulb"></i> 工厂 </a>
+                                        <i class="icon-bulb"></i> 对标 </a>
                                 </li>
                             </ul>
                     </li>
@@ -84,7 +83,11 @@
                     </div>
                     <!-- END USER PROFILE -->
                 </div>
+            </div>    
+                                
             </div>
+            <!-- BEGIN HEADER MENU -->
+            
             <!-- END HEADER MENU -->
             
         </div>

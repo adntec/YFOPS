@@ -40,6 +40,11 @@ body,.page-header .navbar .navbar-nav>li>a,.page-header .navbar .navbar-nav .dro
 	padding-bottom:8px;
 	cursor: pointer;
 }
+.yfops-sparkline-chart{
+	width:65px;
+	height:34px;
+	background:url('bu_1.png') no-repeat center center;
+}
 .yfops-sparkline-title,.yfops-sparkline-chart{
 	float:left;
 }
@@ -53,7 +58,7 @@ body,.page-header .navbar .navbar-nav>li>a,.page-header .navbar .navbar-nav .dro
 	margin-right:10px;
 }
 .ops-chart{
-	height:300px;
+	height:330px;
 }
 
 /* cover*/
@@ -67,6 +72,10 @@ body,.page-header .navbar .navbar-nav>li>a,.page-header .navbar .navbar-nav .dro
 	font-size:24px;
 }
 
+.yfops-sparkline li.active .yfops-sparkline-chart{
+	background:url('bu_0.png') no-repeat center center;
+}
+
 .yfops-sparkline li.active .yfops-sparkline-title{
 	color:#5b9bd1;
 }
@@ -76,10 +85,10 @@ body,.page-header .navbar .navbar-nav>li>a,.page-header .navbar .navbar-nav .dro
 
 .navbar-actions{
 	display: none;
-	position:absolute;
-	right: 30px;
-    top: 10px!important;
-	z-index: 100!important;
+    position: fixed;
+    right: 50px;
+    top: 93px!important;
+    z-index: 10000!important;
 }
 .navbar-actions.active{
 	display: block;
@@ -97,5 +106,35 @@ body,.page-header .navbar .navbar-nav>li>a,.page-header .navbar .navbar-nav .dro
     padding: 20px 15px 20px 30px;
 }
 .page-content{
-	padding-top: 65px!important;
+	padding-top: 150px!important;
+}
+
+@media (min-width: 992px){
+	.page-header .navbar-fixed-top{
+
+		padding: 0px 25px 0!important;
+	}
+
+	.mega-menu .dropdown-menu-fw{
+		left: 25px;
+    	right: 25px;
+	}
+}
+.yfops-entity{
+	position: fixed;
+	top:138px;
+	left:25px;
+	right:25px;
+	padding:10px 30px;
+	margin:0px;
+	display: block;
+	background:#fff;
+	z-index:100;
+	border-bottom:1px solid #eee;
+}
+.yfops-entity h4{
+	display: inline-block;
+}
+.yfops-entity h4:last-child{
+	float:right;
 }

@@ -24,9 +24,9 @@ Array.prototype.unique = function(){
         },
         grid:{
             show:false,
-            x:40,
+            x:46,
             y:10,
-            x2:30,
+            x2:46,
             y2:118
         },
         xAxis: [
@@ -44,15 +44,19 @@ Array.prototype.unique = function(){
             {
                 type: 'value',
                 name: '',
-                // min: 0,
-                // max: 250,
-                // interval: 50,
                 axisLabel: {
                     formatter: function(value){
-                        var rmb = value/100000000;
-                        return rmb+'亿';
+                        var val = value;
+                        if(value>=10000000){
+                            val = (value/100000000)+"亿";
+                        }else if(value>=1000){
+                            val = (value/10000)+"万";
+                        }
+                        return val;
                     }
-                }
+                },
+                
+                splitLine: {show: false}
             }
         ],
         series: [
@@ -91,9 +95,9 @@ Array.prototype.unique = function(){
         },
         grid:{
             show:false,
-            x:40,
+            x:46,
             y:10,
-            x2:30,
+            x2:46,
             y2:138
         },
         xAxis: [
@@ -111,25 +115,28 @@ Array.prototype.unique = function(){
             {
                 type: 'value',
                 name: '',
-                // min: 0,
-                // max: 250,
-                // interval: 50,
                 axisLabel: {
                     formatter: function(value){
-                        var rmb = value/100000000;
-                        return rmb+'亿';
+                        var val = value;
+                        if(value>10000000){
+                            val = (value/100000000)+"亿";
+                        }else if(value>10000){
+                            val = (value/10000)+"万";
+                        }
+                        return val;
                     }
-                }
+                },
+                
+                splitLine: {show: false}
             },
             {
                 type: 'value',
                 name: '',
-                // min: 0,
-                // max: 25,
-                // interval: 5,
                 axisLabel: {
                     formatter: '{value}天'
-                }
+                },
+                
+                splitLine: {show: false}
             }
         ], 
         series: [
@@ -167,9 +174,9 @@ Array.prototype.unique = function(){
         },
         grid:{
             show:false,
-            x:38,
+            x:46,
             y:10,
-            x2:20,
+            x2:46,
             y2:108
         },
         xAxis: [
@@ -192,7 +199,9 @@ Array.prototype.unique = function(){
                 interval: 20,
                 axisLabel: {
                     formatter: '{value}%'
-                }
+                },
+                
+                splitLine: {show: false}
             }
         ],
         series: [
@@ -219,70 +228,10 @@ Array.prototype.unique = function(){
         ]
     };
 
-    var mapOption = {
-        "mapwidth":"860",
-        "mapheight":"700",
-        "categories":[],
-        "levels":[
-            {
-                "id":"china",
-                "title":"China",
-                "map":"maps/china.svg",
-                "minimap": "maps/china-mini.jpg",
-                "locations":[
-                    
-                    // {
-                    //     "id": "guangzhou",
-                    //     "title": "Guangzhou",
-                    //     "description": "Guangzhou is the third largest Chinese city.",
-                    //     // "pin": "circular",
-                    //     "x": "0.6989",
-                    //     "y": "0.8536"
-                    // },
-                    // {
-                    //     "id": "shanghai",
-                    //     "title": "Shanghai 1",
-                    //     "description": "Shanghai is the first largest Chinese city.",
-                    //     // "pin": "circular",
-                    //     "x": "0.8377",
-                    //     "y": "0.6227"
-                    // },
-                    // {
-                    //     "id": "shanghai",
-                    //     "title": "Shanghai 2",
-                    //     "description": "Shanghai is the first largest Chinese city.",
-                    //     // "pin": "circular",
-                    //     "x": "0.8369",
-                    //     "y": "0.6152"
-                    // },
-                    // {
-                    //     "id": "shanghai",
-                    //     "title": "Shanghai 3",
-                    //     "description": "Shanghai is the first largest Chinese city.",
-                    //     // "pin": "circular",
-                    //     "x": "0.8433",
-                    //     "y": "0.6182"
-                    // }
-                ]
-            }
-        ]
-    };
-
     var widgetHeight;
 
     $scope.$on('ngRepeatFinished', function(repeatFinishedEvent) {
-         
-        initSparkline();
 
-        var v = $(".widget_sparkline_bar").eq(0);
-        v.sparkline(v.data('array').split(','), {
-            type: 'bar',
-            width: '100',
-            barWidth: 10,
-            height: '34',
-            barColor: '#5b9bd1',
-            negBarColor: '#5b9bd1'
-        });
         
     });
     
@@ -310,23 +259,6 @@ Array.prototype.unique = function(){
         getBuList('JIT PBU');
         
     });
-
-    var initSparkline = function(){
-
-        $(".widget_sparkline_bar").each(function(i,v){
-            
-            var color = '#a6a6a6';
-
-            $(v).sparkline($(v).data('array').split(','), {
-                type: 'bar',
-                width: '100',
-                barWidth: 10,
-                height: '34',
-                barColor: color,
-                negBarColor: color
-            });
-        })
-    }
 
     var initWidgetHeight = function(){
         var height = $(window).height() - 63.99 - 77.78 -18.89-50;
@@ -374,6 +306,8 @@ Array.prototype.unique = function(){
         var valueArray = [data.overviewStockAmount,data.overviewTurnoverDays,data.overviewTurnoverRate,data.overviewUnbilledSell];
         $scope.values = new Array();
         for(var i=0;i<valueArray.length;i++){
+            if(valueArray[i].length == 0) continue;
+            
             $scope.values[i] = new Object();
             if(valueArray[i][0].axisValue > valueArray[i][1].axisValue ){
                 $scope.values[i].state = 'up';
@@ -383,7 +317,7 @@ Array.prototype.unique = function(){
                 $scope.values[i].state = 'equals';
             }
             $scope.values[i].axisValue = valueArray[i][0].axisValue;
-            $scope.values[i].percent = (valueArray[i][1].axisValue / valueArray[i][0].axisValue)*100;
+            $scope.values[i].percent = (valueArray[i][0].axisValue / valueArray[i][1].axisValue)*100;
             $scope.values[i].lable = valueArray[i][0].lable;
             $scope.values[i].axis = valueArray[i][0].axis;
             $scope.values[i].unit = valueArray[i][0].unit;
@@ -392,20 +326,20 @@ Array.prototype.unique = function(){
         $scope.title1 = data.overviewTurnoverDaysMonth[0].lable;
         getBarLineChart(data.overviewTurnoverDaysMonth, 'chart1',trendOption2);
 
-        $scope.title2 = data.overviewStockageMonth[0].lable;
-        getMixBarChart(data.overviewStockageMonth, 'chart2',ageOption);
+        $scope.title2 = data.overviewTurnoverDaysYear[0].lable;
+        getBarLineChart(data.overviewTurnoverDaysYear, 'chart2',trendOption2);
 
-        $scope.title3 = data.overviewTurnoverDaysYear[0].lable;
-        getBarLineChart(data.overviewTurnoverDaysYear, 'chart3',trendOption2);
+        $scope.title3 = data.overviewStockageMonth[0].lable;
+        getMixBarChart(data.overviewStockageMonth, 'chart3',ageOption);
         
         $scope.title4 = data.overviewStockageYear[0].lable;
         getMixBarChart(data.overviewStockageYear, 'chart4',ageOption);
 
         $scope.title5 = data.overviewUnbilledSellTrendMonth[0].lable;
-        getBarLineChart(data.overviewUnbilledSellTrendMonth, 'chart5',trendOption1);
+        getBarLineChartDefault(data.overviewUnbilledSellTrendMonth, 'chart5',trendOption1);
         
         $scope.title6 = data.overviewUnbilledSellTrendYear[0].lable;
-        getBarLineChart(data.overviewUnbilledSellTrendYear, 'chart6',trendOption1);
+        getBarLineChartDefault(data.overviewUnbilledSellTrendYear, 'chart6',trendOption1);
 
     };
 
@@ -418,26 +352,25 @@ Array.prototype.unique = function(){
 
 
     var getBuListSuccess = function(buList){
-
         $rootScope.BuList = new Object();
+        $rootScope.ALLBuList = new Array();
         for(var i=0;i<buList.length;i++){
             var shortName = buList[i].buCodeShortName;
             if(shortName == null) continue;
 
             if( $rootScope.BuList[shortName] == undefined){
                 $rootScope.BuList[shortName] = new Array();
-            }else{
-                $rootScope.BuList[shortName].push(buList[i]);
             }
+
+            $rootScope.BuList[shortName].push(buList[i]);
+            $rootScope.ALLBuList.push(buList[i]);
         }
 
         //bu列表
         $rootScope.BuNameList = Object.getOwnPropertyNames($rootScope.BuList);
         $rootScope.BuNameList = $rootScope.BuNameList.sort();
-        $rootScope.pubCodeShortName = buList[0].pubCodeShortName;
-        $rootScope.buCodeShortName = $rootScope.BuList[$rootScope.BuNameList[0]][0].buCodeShortName;
-
-        console.log($rootScope.pubCodeShortName)
+        $rootScope.entityShortName = $state.params['id'] || buList[0].pubCodeShortName || 'JIT PBU';
+        console.log('shortName:' + $rootScope.entityShortName);
     }
 
     var getBuList = function(pubCodeShortName){
@@ -447,7 +380,7 @@ Array.prototype.unique = function(){
             $scope.BuListObject = json.BuList;
             getBuListSuccess($scope.BuListObject);
             getOverviewData($rootScope.entityShortName);
-            refreshChinaMap($rootScope.buCodeShortName);
+            refreshChinaMap($rootScope.entityShortName);
 
         }).error(function(){
 
@@ -455,48 +388,42 @@ Array.prototype.unique = function(){
             $scope.BuListObject = queryBuList.BuList;
             getBuListSuccess($scope.BuListObject);
             getOverviewData($rootScope.entityShortName);
-            refreshChinaMap($rootScope.buCodeShortName);
-        });
-        
+            refreshChinaMap($rootScope.entityShortName);
+        });  
     }
 
     $scope.$on('onSelectedPBU', function(scope,buShortName){
         $rootScope.buCodeShortName = buShortName;
         $rootScope.entityShortName = buShortName;
         getOverviewData($rootScope.entityShortName);
+        refreshChinaMap($rootScope.entityShortName);
+        $('.yfops-sparkline li.active').removeClass('active');
     });
 
     $scope.selectBU = function(buShortName,$event){
         
         $rootScope.buCodeShortName = buShortName;
         $rootScope.entityShortName = buShortName;
-        initSparkline();
 
         $('.yfops-sparkline li.active').removeClass('active');
         $($event.currentTarget).addClass('active');
 
-        var v = $($event.currentTarget).find('.widget_sparkline_bar');
-        $(v).sparkline([8,7,9,8.5,8,8.2], {
-            type: 'bar',
-            width: '100',
-            barWidth: 10,
-            height: '34',
-            barColor: '#5b9bd1',
-            negBarColor: '#5b9bd1'
-        });
-
-        // var buShortName = $($event.currentTarget).find('.yfops-sparkline-title').html();
         getOverviewData(buShortName);
         refreshChinaMap(buShortName);
     }
 
     var refreshChinaMap = function(buShortName){
-
-        if(buShortName == "JIT PBU" ) buShortName = "BU1";
-
         var locations = new Array();
-        var keys = $rootScope.BuList[buShortName];
-        // console.log($rootScope.BuList,buShortName,keys);
+        var keys;
+        if( buShortName != 'JIT PBU' && $rootScope.BuList[buShortName] != undefined )
+        {
+            keys = $rootScope.BuList[buShortName];
+            
+        }else{
+            keys = $rootScope.ALLBuList;
+        }
+
+        console.log(buShortName);
 
         for(var i=0;i<keys.length;i++){
             var entity = {
@@ -520,7 +447,7 @@ Array.prototype.unique = function(){
     var getOverviewData = function(buShortName){
 
         var param = {
-           "entityName":buShortName
+           "entityName":buShortName || 'JIT PBU'
         };
 
         $http.post($rootScope.settings.api + '/finance/overviewData' , param).success(function(json){
@@ -545,13 +472,16 @@ Array.prototype.unique = function(){
 
         //x
         var xAxisObject = new Object();
+        var typeObject = new Object();
         for(var i=0; i < data.length; i++){
             var item = data[i];
             if(xAxisObject[item.xAxisValue] == undefined){
                 xAxisObject[item.xAxisValue] = new Object();
+                typeObject[item.xAxisValue] = new Object();
             }
 
             xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue*100;
+            typeObject[item.xAxisValue][item.yAxisLabel] = data[i].axisNo; //TODO
         }
 
         var xAxisData = Object.getOwnPropertyNames(xAxisObject);
@@ -575,31 +505,50 @@ Array.prototype.unique = function(){
                     series[j].data = new Array();
                 }
 
+                if(typeObject[xAxisData[i]][legend[j]] ==1){
+                    series[j].type = 'line';
+                }else if(typeObject[xAxisData[i]][legend[j]] ==0){
+                    series[j].type = 'bar';
+                    series[j].stack = stack;
+                }
+
                 series[j].data.push(xAxisObject[xAxisData[i]][legend[j]] || 0);
             }
         }
 
         //set chart option
-        var stockageMonthOption = angular.copy(option);
-        stockageMonthOption.legend.data = legend;
-        stockageMonthOption.xAxis[0].data = xAxisData;
-        stockageMonthOption.series = series;
+        var _option = angular.copy(option);
+        _option.legend.data = legend;
+        //默认勾选T2 ACTUAL
+        // _option.legend.selected = new Object();
+        // for(var i=0;i<legend.length;i++){
+        //     _option.legend.selected[legend[i]] = false;
+        //     if(legend[i].indexOf('T2') != -1 || legend[i].indexOf('Actual')!= -1 || legend[i].indexOf('Benchmark')!= -1){
+        //         console.log(legend[i]);
+        //         _option.legend.selected[legend[i]] = true;
+        //     }
+        // }
+        _option.xAxis[0].data = xAxisData;
+        _option.series = series;
 
         $scope.charts[chart] = echarts.init(document.getElementById(chart),theme);
-        $scope.charts[chart].setOption(stockageMonthOption);
+        $scope.charts[chart].setOption(_option);
     }
 
-    //趋势分析
+    //双轴
     var getBarLineChart = function(data, chart,option){
         //x 
         var xAxisObject = new Object();
+        var typeObject = new Object();
         for(var i=0; i < data.length; i++){
             var item = data[i];
             if(xAxisObject[item.xAxisValue] == undefined){
                 xAxisObject[item.xAxisValue] = new Object();
+                typeObject[item.xAxisValue] = new Object();
             }
 
             xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue;
+            typeObject[item.xAxisValue][item.yAxisLabel] = data[i].axisNo; //TODO
         }
 
         var xAxisData = Object.getOwnPropertyNames(xAxisObject);
@@ -617,17 +566,34 @@ Array.prototype.unique = function(){
                     series[j].type = 'line';
                     series[j].data = new Array();
                     
+                    // if(typeObject[xAxisData[i]][legend[j]] ==1){
+                    //     series[j].type = 'line';
+                    //     series[j].yAxisIndex = 1;
+                    // }else if(typeObject[xAxisData[i]][legend[j]] ==0){
+                    //     series[j].type = 'bar';
+                    //     // series[j].stack = stack;
+                    //     series[j].yAxisIndex = 0;
+                    // }
 
-                    if(xAxisObject[xAxisData[i]][legend[j]]> 100) {
-                        series[j].type = 'bar';
-                        series[j].yAxisIndex = 0;
-                        // if(series[j].name.indexOf('T1') != -1 || series[j].name.indexOf('T2') != -1 || series[j].name.indexOf('T3') != -1){
-                        //     series[j].stack = 'TIT2T3';
-                        // }
-                    }else{
-                        series[j].type = 'line';
-                        series[j].yAxisIndex = 1;
-                    }
+                    // if(xAxisObject[xAxisData[i]][legend[j]]> 100) {
+                    //     series[j].type = 'bar';
+                    //     // series[j].yAxisIndex = 0;
+                    //     if(series[j].name.indexOf('T1') != -1 || series[j].name.indexOf('T2') != -1 || series[j].name.indexOf('T3') != -1){
+                    //         // series[j].stack = 'TIT2T3';
+                    //         series[j].type = 'line';
+                    //     }
+                    // }else{
+                    //     series[j].type = 'line';
+                    //     // series[j].yAxisIndex = 1;
+                    // }
+                }
+
+                if(typeObject[xAxisData[i]][legend[j]] ==1){
+                    series[j].type = 'line';
+                    series[j].yAxisIndex = 1;
+                }else if(typeObject[xAxisData[i]][legend[j]] ==0){
+                    series[j].type = 'bar';
+                    series[j].yAxisIndex = 0;
                 }
 
                 series[j].data.push(xAxisObject[xAxisData[i]][legend[j]] || 0);
@@ -635,13 +601,92 @@ Array.prototype.unique = function(){
         }
 
         //set chart option
-        var turnoverDaysOption = angular.copy(option);
-        turnoverDaysOption.legend.data = legend;
-        turnoverDaysOption.xAxis[0].data = xAxisData;
-        turnoverDaysOption.series = series;
+        var _option = angular.copy(option);
+        _option.legend.data = legend;
+        //默认勾选T2 ACTUAL
+        _option.legend.selected = new Object();
+        for(var i=0;i<legend.length;i++){
+            _option.legend.selected[legend[i]] = false;
+            if(legend[i].indexOf('T2') != -1 || legend[i].indexOf('Actual')!= -1 || legend[i].indexOf('Benchmark')!= -1){
+                console.log(legend[i]);
+                _option.legend.selected[legend[i]] = true;
+            }
+        }
+
+        _option.xAxis[0].data = xAxisData;
+        _option.series = series;
+        console.log(_option);
 
         $scope.charts[chart] = echarts.init(document.getElementById(chart),theme);
-        $scope.charts[chart].setOption(turnoverDaysOption);
+        $scope.charts[chart].setOption(_option);
+        // var img = chart.getDataURL({
+        //     type:"png",
+        //     pixelRatio: 2,
+        //     backgroundColor: '#fff'
+        // });
+    }
+
+    //双轴
+    var getBarLineChartDefault = function(data, chart,option){
+        //x 
+        var xAxisObject = new Object();
+        var typeObject = new Object();
+        for(var i=0; i < data.length; i++){
+            var item = data[i];
+            if(xAxisObject[item.xAxisValue] == undefined){
+                xAxisObject[item.xAxisValue] = new Object();
+                typeObject[item.xAxisValue] = new Object();
+            }
+
+            xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue;
+            typeObject[item.xAxisValue][item.yAxisLabel] = data[i].axisNo; //TODO
+        }
+
+        var xAxisData = Object.getOwnPropertyNames(xAxisObject);
+
+        var series = new Array();
+        var legend = Object.getOwnPropertyNames(xAxisObject[xAxisData[0]]);
+
+        for(var i=0; i < xAxisData.length; i++){
+
+            for(var j=0; j<legend.length; j++){
+                
+                if( series[j] == undefined){
+                    series[j] = new Object();
+                    series[j].name = legend[j];
+                    series[j].type = 'line';
+                    series[j].data = new Array();
+                }
+
+                if(typeObject[xAxisData[i]][legend[j]] ==1){
+                    series[j].type = 'line';
+                }else if(typeObject[xAxisData[i]][legend[j]] ==0){
+                    series[j].type = 'bar';
+                }
+
+                series[j].data.push(xAxisObject[xAxisData[i]][legend[j]] || 0);
+            }
+        }
+
+        //set chart option
+        var _option = angular.copy(option);
+        _option.legend.data = legend;
+        //默认勾选T2 ACTUAL
+        _option.legend.selected = new Object();
+        for(var i=0;i<legend.length;i++){
+            _option.legend.selected[legend[i]] = false;
+            if(legend[i].indexOf('T2') != -1 || legend[i].indexOf('Actual')!= -1){
+                console.log(legend[i]);
+                _option.legend.selected[legend[i]] = true;
+            }
+        }
+
+        _option.xAxis[0].data = xAxisData;
+        _option.series = series;
+        console.log(_option);
+
+        $scope.charts[chart] = echarts.init(document.getElementById(chart),theme);
+        $scope.charts[chart].setOption(_option);
         // var img = chart.getDataURL({
         //     type:"png",
         //     pixelRatio: 2,
@@ -653,9 +698,6 @@ Array.prototype.unique = function(){
     $rootScope.settings.layout.pageContentWhite = true;
     $rootScope.settings.layout.pageBodySolid = false;
     $rootScope.settings.layout.pageSidebarClosed = false;
-
-    $rootScope.entityShortName = $state.params['id'] || "JIT PBU";
-    console.log('shortName:' + $rootScope.entityShortName);
     
 
 }]);
