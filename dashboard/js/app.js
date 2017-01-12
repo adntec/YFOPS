@@ -51,8 +51,9 @@ SeanApp.factory('settings', ['$rootScope', function($rootScope) {
         assetsPath: '../assets',
         globalPath: '../assets/global',
         layoutPath: '../assets/layouts/layout',
-        api:'http://127.0.0.1:8085',//'http://10.178.188.193:8085',  //
-        version:'0.3.1',
+        // api:'http://127.0.0.1:8085',
+        api:'http://10.178.188.193:8085',
+        version:'0.5.2',
         debug: {
             request:false,
             requestError:false,
@@ -77,6 +78,9 @@ SeanApp.factory("$httpInterceptor",["$q", "$rootScope", function($q, $rootScope)
             json.headers['Content-Type'] = 'application/json;charset=utf-8';
             json.headers['Cache-Control'] = 'no-cache';
             json.headers['Pragma'] = 'no-cache';
+            json.headers['Authorization'] = $rootScope.token || window.localStorage.getItem('t') || '';
+
+            $rootScope.$broadcast('$onSubmit');
 
             return json || $q.when(json);
         },
@@ -88,14 +92,27 @@ SeanApp.factory("$httpInterceptor",["$q", "$rootScope", function($q, $rootScope)
     　　　　 return $q.reject(json)
     　　 },
         response: function(json) {
-            // console.log(json);
+            $rootScope.$broadcast('$onSubmitSuccess');
+            
             if($rootScope.settings.debug.response){
                 console.log("[response]:"+json.status+","+json.config.url);
+            }
+            // console.log(json);
+            if(angular.isDefined(json.data.errorMsg) && json.data.errorMsg != "" && json.data.errorMsg != null){
+                // toastr.clear()
+                toastr["warning"](json.data.errorMsg,"");
+                window.location.href = "#/login";
+                return;
             }
             
             return json || $q.when(json);
         },
         responseError : function(json) {
+            $rootScope.$broadcast('$onSubmitSuccess');
+            
+            window.location.href = "#/login";
+            return $q.reject(json);
+
             if($rootScope.settings.debug.responseError){
                 console.log("[responseError]:"+JSON.stringify(json));
             }
@@ -155,8 +172,8 @@ SeanApp.controller('HeaderController', ['$rootScope','$scope','$http','$state', 
         },500);
    }
 
-   $rootScope.date = '2016年10月';
-   $http.get($rootScope.settings.api + "/queryDate",function(json){
+   $rootScope.date = '2016年13月';
+   $http.get($rootScope.settings.api + "/queryDate").success(function(json){
         $rootScope.date = json.date;
    })
 
@@ -180,17 +197,41 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
     var jsPath = '../dashboard/js/';
     // var jsPath = '../plugins';
 
-    $urlRouterProvider.otherwise("/dashboard");  
+    $urlRouterProvider.otherwise("/login");  
     
     $stateProvider
         // Dashboard
+        .state('chart', {
+            url: "/chart",
+            templateProvider: ['$templateCache',function($templateCache){ 
+                return $templateCache.get('views/chart.html');
+            }],
+
+            data: {pageTitle: 'chart'},
+            controller: "ChartController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'SeanApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
+
+                            './js/theme/chartOptions.js',
+                            '../assets/global/plugins/echarts/echarts.js'
+                        ] 
+                    })
+                }]
+            }
+        })
+
+        // Material
         .state('dashboard', {
             url: "/dashboard",
             templateProvider: ['$templateCache',function($templateCache){ 
                 return $templateCache.get('views/dashboard.html');
             }],
 
-            data: {pageTitle: '财务总览'},
+            data: {pageTitle: 'Material'},
             controller: "DashboardController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -214,14 +255,14 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 }]
             }
         })
-        // financeSearch
+        // Material Search
         .state('financeSearch', {
             url: "/finance/:id",
             templateProvider: ['$templateCache',function($templateCache){ 
                 return $templateCache.get('views/dashboard.html');
             }],
 
-            data: {pageTitle: '财务总览'},
+            data: {pageTitle: 'Material'},
             controller: "DashboardController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -253,7 +294,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/factory.html');
             }],
 
-            data: {pageTitle: '财务工厂'},
+            data: {pageTitle: 'Material'},
             controller: "FactoryController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -278,7 +319,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/BBPOverview.html');
             }],
 
-            data: {pageTitle: 'BBP总览'},
+            data: {pageTitle: 'BBP-CC'},
             controller: "BBPOverviewController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -311,7 +352,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/BBPOverview.html');
             }],
 
-            data: {pageTitle: '库存总览'},
+            data: {pageTitle: 'BBP-CC'},
             controller: "BBPOverviewController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -344,7 +385,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/BBPFactory.html');
             }],
 
-            data: {pageTitle: 'BBP工厂'},
+            data: {pageTitle: 'BBP-CC'},
             controller: "BBPFactoryController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -368,7 +409,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/HROverview.html');
             }],
 
-            data: {pageTitle: 'HR总览'},
+            data: {pageTitle: 'BBP-LH'},
             controller: "HROverviewController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -402,7 +443,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/HROverview.html');
             }],
 
-            data: {pageTitle: '库存总览'},
+            data: {pageTitle: 'BBP-LH'},
             controller: "HROverviewController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -435,7 +476,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/HRFactory.html');
             }],
 
-            data: {pageTitle: 'HR工厂'},
+            data: {pageTitle: 'BBP-LH'},
             controller: "HRFactoryController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -459,7 +500,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/OtherOverview.html');
             }],
 
-            data: {pageTitle: 'Other总览'},
+            data: {pageTitle: 'Other'},
             controller: "OtherOverviewController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -492,7 +533,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/OtherOverview.html');
             }],
 
-            data: {pageTitle: '库存总览'},
+            data: {pageTitle: 'Other'},
             controller: "OtherOverviewController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -524,7 +565,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/OtherFactory.html');
             }],
 
-            data: {pageTitle: 'Other工厂'},
+            data: {pageTitle: 'Other'},
             controller: "OtherFactoryController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -546,7 +587,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                 return $templateCache.get('views/login.html');
             }],
 
-            data: {pageTitle: 'Admin Dashboard Template'},
+            data: {pageTitle: 'OPS Login'},
             controller: "LoginController",
             resolve: {
                 deps: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -555,8 +596,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
                         insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
                         files: [
                             '../assets/pages/css/login-4.min.css',
-                            '../assets/global/plugins/backstretch/jquery.backstretch.min.js',
-                            'js/controllers/LoginController.js',
+                            '../assets/global/plugins/backstretch/jquery.backstretch.min.js'
                         ] 
                     })
                 }]
@@ -569,9 +609,9 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
 
 /* Init global settings and run the app */
 SeanApp.run(["$rootScope", "settings", "$state", "$http", "$interval", function($rootScope, settings, $state,$http,$interval) {
-    var timer = $interval(function(){
-        $rootScope.time = moment().format('YYYY年 MM月D日 HH:mm:ss');
-    },1000);
+    // var timer = $interval(function(){
+    //     $rootScope.time = moment().format('YYYY年 MM月D日 HH:mm:ss');
+    // },1000);
     
 
     $rootScope.$state = $state; // state to be accessed from view
@@ -582,10 +622,10 @@ SeanApp.run(["$rootScope", "settings", "$state", "$http", "$interval", function(
       "debug": false,
       "positionClass": "toast-top-center",
       "onclick": null,
-      "showDuration": "1000",
-      "hideDuration": "1000",
-      "timeOut": "5000",
-      "extendedTimeOut": "1000",
+      "showDuration": "3000",
+      "hideDuration": "3000",
+      "timeOut": "3000",
+      "extendedTimeOut": "3000",
       "showEasing": "swing",
       "hideEasing": "linear",
       "showMethod": "fadeIn",
@@ -605,16 +645,28 @@ SeanApp.directive('ngSpinnerBar', ['$rootScope','$http','$state',
                 // by defult hide the spinner bar
                 element.addClass('hide'); // hide spinner bar by default
 
+                $rootScope.$on('$onSubmit', function() {
+                    //console.log('show');
+                    element.removeClass('hide');
+                });
+                
+                $rootScope.$on('$onSubmitSuccess', function() {
+                    //console.log('hide');
+                    element.addClass('hide');
+                });
+
                 // display the spinner bar whenever the route changes(the content part started loading)
                 $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
+
                     element.removeClass('hide'); // show spinner bar
+                    // $('body').addClass('page-on-load');
+                        
                     if(toState.name=='login') return;
 
                 });
 
                 // hide the spinner bar on rounte change success(after the content loaded)
                 $rootScope.$on('$stateChangeSuccess', function() {
-                    console.log($rootScope.$state.current.name);
 
                     element.addClass('hide'); // hide spinner bar
                     $('body').removeClass('page-on-load'); // remove page loading indicator
@@ -629,9 +681,14 @@ SeanApp.directive('ngSpinnerBar', ['$rootScope','$http','$state',
                         return;
                     }else{
                         $rootScope.loginPage = false; 
+                        $rootScope.chartPage = false;
                         $('body').removeClass('login');
                         $('#ui_container').addClass('page-content');
                         $('.backstretch').remove();
+
+                        if($rootScope.$state.current.name === 'chart'){ 
+                            $rootScope.chartPage = true;
+                        }
                     }
                    
                     // auto scorll to page top

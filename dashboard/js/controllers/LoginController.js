@@ -11,14 +11,32 @@
         );
     });
 
-    $scope.request = {};
+    $scope.request = {
+        // userName:'ali1429',
+        // password:'Qaz111',
+        userName:'',
+        password:'',
+    };
 
     $scope.login = function(){
         //TODO: static login
-        $state.go('dashboard');
+        // $state.go('dashboard');
 
-        $http.post( $rootScope.settings.api + '/user/login',$scope.request,function(json){
-            console.log(json);
+        $http.post( $rootScope.settings.api + '/user/login',$scope.request).success(function(json){
+            
+            if(json.errorMsg){
+                toastr["warning"](json.errorMsg,"");
+                return;
+            }
+
+            if(json.token){
+                toastr["success"]('登录成功',"");
+
+                $rootScope.token = json.token;
+                window.localStorage.setItem('t',json.token);
+                
+                $state.go('dashboard');
+            }
 
         })
     }

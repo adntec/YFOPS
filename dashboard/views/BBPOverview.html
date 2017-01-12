@@ -5,20 +5,20 @@
 <div class="navbar-actions"  ng-class="{'BBPOverview':'active','BBPFactory':'active','BBPSearch':'active'}[$parent.$state.current.name]">
 
     <div class="btn-group-img btn-group">
-        <button type="button" class="yfops-top-btn btn btn-sm md-skip dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+        <button type="button" class="yfops-top-btn btn md-skip dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
             <span ng-bind="currentFilter">CC/EQU</span>
             <i class="fa fa-caret-down font-white"></i>
         </button>
 
-        <ul class="dropdown-menu-v2" role="menu">
+        <ul class="dropdown-menu dropdown-menu-right" role="menu">
             <li ng-repeat="filter in filterList" ng-click="setFilter(filter)">
                 <a href="#">
-                <i class="icon-calendar"></i> <span ng-bind="filter">11</span> </a>
+                <i class="icon-calendar"></i> {{filter}} </a>
             </li>
         </ul>
     </div>
 </div>
-
+ 
 <div class="row">
     <div class="col-md-6 col-sm-6 ">
         <!-- BEGIN PORTLET-->
@@ -49,16 +49,16 @@
                 <div class="dashboard-stat2 bordered">
                     <div class="display">
                         <div class="number">
-                            <h3 class="font-blue-sharp">
+                            <h3 class="font-blue-sharp ellipsis">
                                 <span data-counter="counterup" data-value="7800" ng-bind="value.axisValue | number">0</span>
                                 <span class="yfops-unit" ng-bind="value.unit">元</span>
                             </h3>
-                            <small ng-bind="value.lable">库存金额</small>
+                            <small ng-bind="value.lable" class="ellipsis">库存金额</small>
                         </div>
                     </div>
                     <div class="progress-info">
                         <div class="progress">
-                            <span style="width: {{value.percent | number:1}}%;" class="progress-bar progress-bar-success blue-sharp">
+                            <span ng-style="{'width': '{{value.percent | number:1}}%'}" class="progress-bar progress-bar-success blue-sharp">
                                 <span class="sr-only">{{value.percent | number:1}}% progress</span>
                             </span>
                         </div>
@@ -78,11 +78,11 @@
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-bar-chart font-dark hide"></i>
-                    <span class="caption-subject font-dark bold uppercase" ng-bind="title1">月度</span>
+                    <span class="caption-subject font-dark bold  " ng-bind="title1">月度</span>
                 </div>
                 <div class="actions">
-                	<a class="btn btn-circle fa fa-download btn-default " href="javascript:;" target="_blank"> </a>
-                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-download btn-default " > </a>
+                    <a class="btn btn-circle fa fa-search-plus btn-default " > </a>
                 </div>
                 
             </div>
@@ -99,11 +99,11 @@
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-share font-red-sunglo hide"></i>
-                    <span class="caption-subject font-dark bold uppercase" ng-bind="title2">月度</span>
+                    <span class="caption-subject font-dark bold  " ng-bind="title2">月度</span>
                 </div>
                 <div class="actions">
-                    <a class="btn btn-circle fa fa-download btn-default " href="javascript:;" target="_blank"> </a>
-                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-download btn-default " > </a>
+                    <a class="btn btn-circle fa fa-search-plus btn-default " > </a>
                 </div>
                
             </div>
@@ -122,11 +122,11 @@
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-share font-red-sunglo hide"></i>
-                    <span class="caption-subject font-dark bold uppercase" ng-bind="title3">月度</span>
+                    <span class="caption-subject font-dark bold  " ng-bind="title3">月度</span>
                 </div>
                 <div class="actions">
-                    <a class="btn btn-circle fa fa-download btn-default " href="javascript:;" target="_blank"> </a>
-                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-download btn-default"  > </a>
+                    <a class="btn btn-circle fa fa-search-plus btn-default"> </a>
                 </div>
                
             </div>
@@ -145,11 +145,11 @@
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-share font-red-sunglo hide"></i>
-                    <span class="caption-subject font-dark bold uppercase" ng-bind="title4">月度</span>
+                    <span class="caption-subject font-dark bold  " ng-bind="title4">月度</span>
                 </div>
                 <div class="actions">
-                    <a class="btn btn-circle fa fa-download btn-default " href="javascript:;" target="_blank"> </a>
-                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-download btn-default"  > </a>
+                    <a class="btn btn-circle fa fa-search-plus btn-default"> </a>
                 </div>
                
             </div>
@@ -168,11 +168,11 @@
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-share font-red-sunglo hide"></i>
-                    <span class="caption-subject font-dark bold uppercase" ng-bind="title5">月度</span>
+                    <span class="caption-subject font-dark bold  " ng-bind="title5">月度</span>
                 </div>
                 <div class="actions">
-                    <a class="btn btn-circle fa fa-download btn-default " href="javascript:;" target="_blank"> </a>
-                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-download btn-default"  > </a>
+                    <a class="btn btn-circle fa fa-search-plus btn-default"> </a>
                 </div>
                
             </div>
@@ -191,11 +191,11 @@
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-share font-red-sunglo hide"></i>
-                    <span class="caption-subject font-dark bold uppercase" ng-bind="title6">月度</span>
+                    <span class="caption-subject font-dark bold  " ng-bind="title6">月度</span>
                 </div>
                 <div class="actions">
-                    <a class="btn btn-circle fa fa-download btn-default " href="javascript:;" target="_blank"> </a>
-                    <a class="btn btn-circle fa fa-expand btn-default fullscreen" href="#" data-original-title="" title=""> </a>
+                    <a class="btn btn-circle fa fa-download btn-default"  > </a>
+                    <a class="btn btn-circle fa fa-search-plus btn-default"> </a>
                 </div>
                
             </div>

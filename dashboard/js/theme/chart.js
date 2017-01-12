@@ -10,7 +10,7 @@ var theme = {
 
     // 图表标题
     title: {
-        backgroundColor: '#F2F2E6',
+        // backgroundColor: '#F2F2E6',
         itemGap: 10,               // 主副标题纵向间隔，单位px，默认为10，
         textStyle: {
             color: '#8A826D'          // 主标题文字颜色
@@ -84,7 +84,7 @@ var theme = {
     // 数值型坐标轴默认参数
     valueAxis: {
         axisLine: {            // 坐标轴线
-            show: false
+            show: true
         },
         splitArea : {
             show: false
@@ -130,6 +130,8 @@ var theme = {
 
     // 柱形图默认参数
     bar: {
+
+        // barWidth : 3,
         itemStyle: {
             normal: {
                 barBorderRadius: 0

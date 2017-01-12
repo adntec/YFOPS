@@ -1,13 +1,71 @@
 <!-- BEGIN HEADER -->
 <header class="page-header">
+    
     <nav class="navbar mega-menu" role="navigation">
         <div class="container-fluid" style="position:relative;">
+            
+
             <div class="clearfix navbar-fixed-top">
-                     <div class="nav-collapse collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="yfops-nav">
+                    <li ng-class="{'dashboard':'active','factory':'active','financeSearch':'active'}[$parent.$state.current.name]">
+                        <a ui-sref="dashboard">Material</a>
+                        <ul class="yfops-nav2">
+                            <li ng-class="{'dashboard':'active','financeSearch':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="dashboard">
+                                    <i class="icon-bar-chart"></i> 总览 </a>
+                            </li>
+                            <li ng-class="{'factory':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="factory">
+                                    <i class="icon-bulb"></i> 对标 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li ng-class="{'BBPOverview':'active','BBPFactory':'active','BBPSearch':'active'}[$parent.$state.current.name]">
+                        <a ui-sref="BBPOverview">BBP-CC</a>
+                        <ul class="yfops-nav2">
+                            <li ng-class="{'BBPOverview':'active','BBPSearch':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="BBPOverview">
+                                    <i class="icon-bar-chart"></i> 总览 </a>
+                            </li>
+                            <li ng-class="{'BBPFactory':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="BBPFactory">
+                                    <i class="icon-bulb"></i> 对标 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li ng-class="{'HROverview':'active','HRFactory':'active','HRSearch':'active'}[$parent.$state.current.name]">
+                        <a ui-sref="HROverview">BBP-LH</a>
+                        <ul class="yfops-nav2">
+                            <li ng-class="{'HROverview':'active','HRSearch':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="HROverview">
+                                    <i class="icon-bar-chart"></i> 总览 </a>
+                            </li>
+                            <li ng-class="{'HRFactory':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="HRFactory">
+                                    <i class="icon-bulb"></i> 对标 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li ng-class="{'OtherOverview':'active','OtherFactory':'active', 'OtherSearch':'active'}[$parent.$state.current.name]">
+                        <a ui-sref="OtherOverview">Other</a>
+                        <ul class="yfops-nav2">
+                            <li ng-class="{'OtherOverview':'active','OtherSearch':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="OtherOverview">
+                                    <i class="icon-bar-chart"></i> 总览 </a>
+                            </li>
+                            <li ng-class="{'OtherFactory':'active'}[$parent.$state.current.name]">
+                                <a ui-sref="OtherFactory">
+                                    <i class="icon-bulb"></i> 对标 </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="nav-collapse collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li class="dropdown dropdown-fw " ng-class="{'dashboard':'active open selected','factory':'active open selected','financeSearch':'active open selected'}[$parent.$state.current.name]">
-                        <a href="javascript:;" class="text-uppercase" ui-sref="dashboard">
-                            <i class="icon-home"></i> 财务 </a>
+                        <a href="javascript:;"   ui-sref="dashboard">
+                            <i class="icon-home"></i> Material  </a>
                         <ul class="dropdown-menu dropdown-menu-fw">
                             <li ng-class="{'dashboard':'active','financeSearch':'active'}[$parent.$state.current.name]">
                                 <a ui-sref="dashboard">
@@ -20,8 +78,8 @@
                         </ul>
                     </li>
                     <li class="dropdown dropdown-fw" ng-class="{'BBPOverview':'active open selected','BBPFactory':'active open selected','BBPSearch':'active open selected'}[$parent.$state.current.name]">
-                        <a href="javascript:;" class="text-uppercase" ui-sref="BBPOverview" >
-                            <i class="icon-puzzle"></i> BBP </a>
+                        <a href="javascript:;"   ui-sref="BBPOverview" >
+                            <i class="icon-puzzle"></i> BBP-CC </a>
                             <ul class="dropdown-menu dropdown-menu-fw" >
                                 <li ng-class="{'BBPOverview':'active','BBPSearch':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="BBPOverview">
@@ -35,8 +93,8 @@
                             
                     </li>
                     <li class="dropdown dropdown-fw" ng-class="{'HROverview':'active open selected','HRFactory':'active open selected','HRSearch':'active open selected'}[$parent.$state.current.name]">
-                        <a href="javascript:;" class="text-uppercase" ui-sref="HROverview">
-                            <i class="icon-user"></i> 人力 </a>
+                        <a href="javascript:;"   ui-sref="HROverview">
+                            <i class="icon-user"></i> BBP-LH </a>
                             <ul class="dropdown-menu dropdown-menu-fw">
                                 <li ng-class="{'HROverview':'active','HRSearch':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="HROverview">
@@ -49,14 +107,14 @@
                             </ul>
                     </li>
                     <li class="dropdown dropdown-fw" ng-class="{'OtherOverview':'active open selected','OtherFactory':'active open selected', 'OtherSearch':'active open selected'}[$parent.$state.current.name]">
-                        <a href="javascript:;" class="text-uppercase" ui-sref="OtherOverview">
-                            <i class="fa fa-paper-plane"></i> 其他 </a>
+                        <a href="javascript:;"   ui-sref="OtherOverview">
+                            <i class="fa fa-paper-plane"></i> Other </a>
                             <ul class="dropdown-menu dropdown-menu-fw ">
                                 <li ng-class="{'OtherOverview':'active','OtherSearch':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="OtherOverview">
                                         <i class="icon-bar-chart"></i> 总览 </a>
                                 </li>
-                                <li ng-class="{'OtherFactory':'active','OtherSearch':'active'}[$parent.$state.current.name]">
+                                <li ng-class="{'OtherFactory':'active'}[$parent.$state.current.name]">
                                     <a ui-sref="OtherFactory">
                                         <i class="icon-bulb"></i> 对标 </a>
                                 </li>

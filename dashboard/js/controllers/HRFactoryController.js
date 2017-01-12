@@ -1,8 +1,9 @@
 ;angular.module('SeanApp')
-.controller('HRFactoryController',['$rootScope', '$scope','$http', '$timeout','$window', function($rootScope, $scope, $http, $timeout,$window) {
+.controller('HRFactoryController',['$rootScope', '$scope','$http', '$timeout','$window','$state', function($rootScope, $scope, $http, $timeout,$window,$state) {
 
     var widgetHeight;
     $scope.charts = new Array();
+    $scope.option = new Array(); 
     $scope.$on('ngRepeatFinished', function(repeatFinishedEvent) {
        
         
@@ -10,25 +11,35 @@
     
     $scope.$on('$viewContentLoaded', function() {
         
-        angular.element('.fullscreen').bind('click', function() {
-            initializeChartSize();
-        })
-
-        $('.portlet .fa-download').bind('click',function(){
+        $('.portlet .fa-download,.portlet .fa-search-plus').bind('click',function(){
             var id = $(this).parents('.portlet').find('.ops-chart').attr('id');
-            // console.log(id);
-            var img = $scope.charts[id].getDataURL({
-                type:"png",
-                pixelRatio: 2,
-                backgroundColor: '#fff'
-            });
-            $(this).attr('href',img); 
-             // $scope.charts[id].dispatchAction({type:'saveAsImage'});
+            var title = $(this).parents('.portlet').find('.caption-subject').html(); 
+            
+            window.localStorage.setItem('chartOption',JSON.stringify($scope.option[id]));
+            window.localStorage.setItem('title',title);
+
+            $state.go('chart');
 
         });
 
         initWidgetHeight();
-        getfilterList();
+        $scope.getfilterList();
+
+        $scope.timer = $timeout(function(){
+            $scope.timeout = null;
+            angular.element($window).bind('resize', function() {
+                $scope.timeout = $timeout(function(){
+                    $scope.initEchart($scope.overviewData);
+                    $timeout.cancel( $scope.timeout);
+                },300);
+            })
+        },600);
+
+        $scope.$on("$destroy",function( event ) {
+                $timeout.cancel( $scope.timer );
+                angular.element($window).unbind('resize');
+            }
+        );
         
     });
 
@@ -175,7 +186,7 @@
         grid:{
             show:false,
             x:38,
-            y:10,
+            y:26,
             x2:20,
             y2:128
         },
@@ -220,41 +231,47 @@
     };
 
 
-    var initEchart = function(data){
+    $scope.initEchart = function(data){
 
         if(!data || data == undefined){
             return;
         }
         
-        $scope.title1 = data.totalLaborHoursDivideEQU[0].lable;
-        getBarLineChart(data.totalLaborHoursDivideEQU, 'chart1',trendOption2);
+        try{
+            $scope.title1 = data.totalLaborHoursDivideEQU[0].lable;
+            $scope.getBarLineChart(data.totalLaborHoursDivideEQU, 'chart1',trendOption2);
+        }catch(e){
+
+        }
         
 
     };
 
-    var initializeChartSize = function() {
-        $timeout.cancel($scope.layout);
-        $scope.layout = $timeout(function(){
-            initEchart($scope.overviewData);
-        },80);
-    };
+    // $scope.initializeChartSize = function() {
+    //     $timeout.cancel($scope.layout);
+    //     $scope.layout = $timeout(function(){
+    //         initEchart($scope.overviewData);
+    //     },80);
+    // };
 
-    var getfilterList = function(){
+    $scope.getfilterList = function(){
         
         ///////真数据
         $http.get($rootScope.settings.api + '/hr/queryFilter').success(function(json){
             
             $scope.filterListObject = json.filterList;
-            getfilterListSuccess($scope.filterListObject);
+            $scope.getfilterListSuccess($scope.filterListObject);
 
         }).error(function(){
+
+            toastr["warning"]("/hr/queryFilter error","");
             ///////假数据
             $scope.filterListObject = hrQueryFilter.filterList;
-            getfilterListSuccess($scope.filterListObject);
+            $scope.getfilterListSuccess($scope.filterListObject);
         });
     }
 
-    var getfilterListSuccess = function(list){
+    $scope.getfilterListSuccess = function(list){
 
         $scope.filterList = new Array();
         for(var i=0;i<list.length;i++){
@@ -262,41 +279,40 @@
             $scope.filterList.push(list[i].businessCat3);
 
         }
-        $scope.setFilter($scope.filterList[0]);
+        $scope.setFilter($scope.currentFilter || $scope.filterList[0]);
     }
 
     $scope.setFilter = function(filter){
-        console.log(filter);
+
         $scope.currentFilter = filter;
-        getOverviewData($rootScope.buCodeShortName || 'BU1', $scope.currentFilter);
+        $scope.getOverviewData($rootScope.buCodeShortName, $scope.currentFilter);
     };
 
-    $scope.$on('onSelectedPBU', function(buShortName){
-        $rootScope.buCodeShortName = buShortName;
-        getOverviewData(buShortName || 'JIT PBU', $scope.currentFilter);
+    $scope.$on('onSelectedPBU', function(scope,buShortName){
+        window.location.href = "#/HROverview";
     });
 
-    var getOverviewData = function(entityName,costType){
+    $scope.getOverviewData = function(entityName,costType){
         
         var param = {
-           "entityName":entityName,
+           "entityName":entityName  || 'JIT PBU',
            "costType":costType
         };
 
         $http.post($rootScope.settings.api + '/hr/queryFactoryData' , param).success(function(json){
             
             $scope.overviewData = json;
-            initEchart($scope.overviewData);
+            $scope.initEchart($scope.overviewData);
 
         }).error(function(){
             ////假数据
             $scope.overviewData = hrQueryFactoryData;
-            initEchart($scope.overviewData);
+            $scope.initEchart($scope.overviewData);
         });
         
     }
 
-    var getBarLineChart = function(data, chart,option){
+    $scope.getBarLineChart = function(data, chart,option){
         //x
         var xAxisObject = new Object();
         var typeObject = new Object();
@@ -347,25 +363,25 @@
         }
 
         //set chart option
-        var turnoverDaysOption = angular.copy(option);
-        turnoverDaysOption.legend.data = legend;
+        $scope.option[chart] = angular.copy(option);
+        $scope.option[chart].legend.data = legend;
         //默认勾选T2 ACTUAL
-        turnoverDaysOption.legend.selected = new Object();
+        $scope.option[chart].legend.selected = new Object();
         for(var i=0;i<legend.length;i++){
-            turnoverDaysOption.legend.selected[legend[i]] = false;
-            if(legend[i].indexOf('T2') != -1 || legend[i].indexOf('Actual')!= -1 || legend[i].indexOf('Benchmark')!= -1){
-                console.log(legend[i]);
-                turnoverDaysOption.legend.selected[legend[i]] = true;
+            $scope.option[chart].legend.selected[legend[i]] = false;
+            if(legend[i].indexOf('T2') != -1 || legend[i].indexOf('Act')!= -1 || legend[i].indexOf('BM')!= -1){
+                $scope.option[chart].legend.selected[legend[i]] = true;
             }
         }
-        turnoverDaysOption.xAxis[0].data = xAxisData;
-        turnoverDaysOption.series = series;
+        $scope.option[chart].yAxis[0].name = data[0].unit != undefined ?  "("+data[0].unit+")" : '';
+        $scope.option[chart].xAxis[0].data = xAxisData;
+        $scope.option[chart].series = series;
 
         $scope.charts[chart] = echarts.init(document.getElementById(chart),theme);
-        $scope.charts[chart].setOption(turnoverDaysOption);
+        $scope.charts[chart].setOption($scope.option[chart]);
     }
 
-    var getMixBarChart = function(data,chart,option){
+    $scope.getMixBarChart = function(data,chart,option){
 
         //x
         var xAxisObject = new Object();
@@ -379,11 +395,9 @@
 
             xAxisObject[item.xAxisValue][item.yAxisLabel] = data[i].yAxisValue*100;
             typeObject[item.xAxisValue][item.yAxisLabel] = data[i].axisNo; //TODO
-            console.log(data[i].yAxisValue);
         }
 
         var xAxisData = Object.getOwnPropertyNames(xAxisObject);
-        console.log(xAxisObject);
         //y
         var stack = data[0].lable;
         var series = new Array();
@@ -413,22 +427,21 @@
         }
 
         //set chart option
-        var stockageMonthOption = angular.copy(option);
-        stockageMonthOption.legend.data = legend;
+        $scope.option[chart] = angular.copy(option);
+        $scope.option[chart].legend.data = legend;
         //默认勾选T2 ACTUAL
-        turnoverDaysOption.legend.selected = new Object();
+        $scope.option[chart].legend.selected = new Object();
         for(var i=0;i<legend.length;i++){
-            turnoverDaysOption.legend.selected[legend[i]] = false;
-            if(legend[i].indexOf('T2') != -1 || legend[i].indexOf('Actual')!= -1 || legend[i].indexOf('Benchmark')!= -1){
-                console.log(legend[i]);
-                turnoverDaysOption.legend.selected[legend[i]] = true;
+            _option.legend.selected[legend[i]] = false;
+            if(legend[i].indexOf('T2') != -1 || legend[i].indexOf('Act')!= -1 || legend[i].indexOf('BM')!= -1){
+                $scope.option[chart].legend.selected[legend[i]] = true;
             }
         }
-        stockageMonthOption.xAxis[0].data = xAxisData;
-        stockageMonthOption.series = series;
+        $scope.option[chart].xAxis[0].data = xAxisData;
+        $scope.option[chart].series = series;
 
         $scope.charts[chart] = echarts.init(document.getElementById(chart),theme);
-        $scope.charts[chart].setOption(stockageMonthOption);
+        $scope.charts[chart].setOption($scope.option[chart]);
     }
 
 
