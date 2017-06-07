@@ -1,0 +1,236 @@
+{
+  "BuList": [
+    {
+      "entityCode": "JIT PBU",
+      "entityShortName": "JIT PBU",
+      "buCode": null,
+      "buCodeShortName": null,
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "ATSOT00C",
+      "entityShortName": "安亭总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "JIT_BU2",
+      "entityShortName": "总装BU2",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "JN JIT",
+      "entityShortName": "江宁总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "NBSJS01",
+      "entityShortName": "宁波总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "NJJJS01",
+      "entityShortName": "江宁总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "SHOJS14",
+      "entityShortName": "常熟总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "SHOJS18",
+      "entityShortName": "长沙总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "YZSJS01",
+      "entityShortName": "仪征总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "JIT_BU3",
+      "entityShortName": "总装BU3",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "SHOJS01",
+      "entityShortName": "秀浦总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "SYSJS01",
+      "entityShortName": "沈阳总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "WHSJS01",
+      "entityShortName": "武汉总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "YTSJS01",
+      "entityShortName": "烟台总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "GZJJS01",
+      "entityShortName": "广州东风",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "JIT_DFBU",
+      "entityShortName": "总装DFBU",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "WHFJS01",
+      "entityShortName": "武汉东风",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "WHFJS04",
+      "entityShortName": "武汉江夏",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "YCJJS01",
+      "entityShortName": "盐城总装",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "ZZJJS01",
+      "entityShortName": "郑州东风",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "JIT_BU1",
+      "entityShortName": "总装BU1",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "LFSJT01",
+      "entityShortName": "廊坊总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "LZ JIT",
+      "entityShortName": "柳州总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "LZSJS01",
+      "entityShortName": "柳州总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "NJJJS02",
+      "entityShortName": "浦口总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "NJJJS04",
+      "entityShortName": "江宁二",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "SHOJS02",
+      "entityShortName": "南汇总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "SHOJS11",
+      "entityShortName": "杭州总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    },
+    {
+      "entityCode": "SHOJS19",
+      "entityShortName": "柳东总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU"
+    }
+  ]
+}

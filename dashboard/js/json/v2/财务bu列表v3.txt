@@ -1,0 +1,294 @@
+{
+  "BuList": [
+    {
+      "entityCode": "JIT PBU",
+      "entityShortName": "JIT PBU",
+      "buCode": null,
+      "buCodeShortName": null,
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "ATSOT00C",
+      "entityShortName": "安亭总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8358,
+      "axisY": 0.6133
+    },
+    {
+      "entityCode": "JIT_BU2",
+      "entityShortName": "总装BU2",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "JN JIT",
+      "entityShortName": "江宁总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.796,
+      "axisY": 0.605
+    },
+    {
+      "entityCode": "NBSJS01",
+      "entityShortName": "宁波总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8395,
+      "axisY": 0.6445
+    },
+    {
+      "entityCode": "NJJJS01",
+      "entityShortName": "江宁总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "SHOJS14",
+      "entityShortName": "常熟总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8293,
+      "axisY": 0.6039
+    },
+    {
+      "entityCode": "SHOJS18",
+      "entityShortName": "长沙总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.6715,
+      "axisY": 0.7242
+    },
+    {
+      "entityCode": "YZSJS01",
+      "entityShortName": "仪征总装",
+      "buCode": "CBU2",
+      "buCodeShortName": "BU2",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8127,
+      "axisY": 0.5963
+    },
+    {
+      "entityCode": "JIT_BU3",
+      "entityShortName": "总装BU3",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "SHOJS01",
+      "entityShortName": "秀浦总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8412,
+      "axisY": 0.616
+    },
+    {
+      "entityCode": "SYSJS01",
+      "entityShortName": "沈阳总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8391,
+      "axisY": 0.3312
+    },
+    {
+      "entityCode": "WHSJS01",
+      "entityShortName": "武汉总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.7083,
+      "axisY": 0.6631
+    },
+    {
+      "entityCode": "YTSJS01",
+      "entityShortName": "烟台总装",
+      "buCode": "CBU3",
+      "buCodeShortName": "BU3",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8116,
+      "axisY": 0.4418
+    },
+    {
+      "entityCode": "GZJJS01",
+      "entityShortName": "广州东风",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.6986,
+      "axisY": 0.8513
+    },
+    {
+      "entityCode": "JIT_DFBU",
+      "entityShortName": "总装DFBU",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "WHFJS01",
+      "entityShortName": "武汉东风",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.712,
+      "axisY": 0.661
+    },
+    {
+      "entityCode": "WHFJS04",
+      "entityShortName": "武汉江夏",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.7099,
+      "axisY": 0.6645
+    },
+    {
+      "entityCode": "YCJJS01",
+      "entityShortName": "盐城总装",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8042,
+      "axisY": 0.566
+    },
+    {
+      "entityCode": "ZZJJS01",
+      "entityShortName": "郑州东风",
+      "buCode": "DFBU",
+      "buCodeShortName": "DFBU",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.6834,
+      "axisY": 0.5288
+    },
+    {
+      "entityCode": "JIT_BU1",
+      "entityShortName": "总装BU1",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "LFSJT01",
+      "entityShortName": "廊坊总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.7362,
+      "axisY": 0.4024
+    },
+    {
+      "entityCode": "LZ JIT",
+      "entityShortName": "柳州总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.6164,
+      "axisY": 0.8091
+    },
+    {
+      "entityCode": "LZSJS01",
+      "entityShortName": "柳州总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "NJJJS02",
+      "entityShortName": "浦口总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.7961,
+      "axisY": 0.6016
+    },
+    {
+      "entityCode": "NJJJS04",
+      "entityShortName": "江宁二",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    },
+    {
+      "entityCode": "SHOJS02",
+      "entityShortName": "南汇总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8442,
+      "axisY": 0.6207
+    },
+    {
+      "entityCode": "SHOJS11",
+      "entityShortName": "杭州总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": 0.8179,
+      "axisY": 0.6427
+    },
+    {
+      "entityCode": "SHOJS19",
+      "entityShortName": "柳东总装",
+      "buCode": "NEW CBU1",
+      "buCodeShortName": "BU1",
+      "pubCode": "JIT PBU",
+      "pubCodeShortName": "JIT PBU",
+      "axisX": null,
+      "axisY": null
+    }
+  ]
+}

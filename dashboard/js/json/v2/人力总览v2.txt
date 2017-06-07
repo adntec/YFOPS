@@ -1,0 +1,2671 @@
+{
+  "errorMsg": null,
+  "totalLaborhours": [
+    {
+      "lable": "Direct Labor Hours",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 609,
+      "unit": "K"
+    }
+  ],
+  "equ": [
+    {
+      "lable": "EQU",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 69191,
+      "unit": "K"
+    }
+  ],
+  "totalLaborhoursDivideEQU": [
+    {
+      "lable": "Direct Labor Hours/EQU",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 0
+    },
+    {
+      "lable": "Direct Labor Hours/EQU",
+      "axis": "Benchmark",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 0
+    }
+  ],
+  "totalLaborhoursDivideEQUTrendMonth": [
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "644547.1"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "506914.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "628921"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "548362.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "572178.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "534488.4"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "438313.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "424601.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "513369.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "633213.4"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "766371"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "669275.2"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "718846.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "531035"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "748387.1"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "597346"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "575277.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "587628.1"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "641992.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "650718.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "769397.7"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "月度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "69190888.2"
+    }
+  ],
+  "totalLaborhoursDivideEQUClassMonth": [
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "518.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "194.3"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "43.3"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "756.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "464.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "165.3"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "39"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "668.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "504.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "193.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "43.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "742"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "505.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "201.1"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "45.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "752.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "477.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "187.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "43.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "708.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "480.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "190.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "46.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "717.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "381.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "158.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "42.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "582.3"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "394.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "164.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "49.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "608.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "455"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "185.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "50.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "691"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "446.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "175.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "38.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "661.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "612.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "231.3"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "54.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "898.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "536.1"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "189.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "45.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "771.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "550.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "213"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "107"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "53.9"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "817.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "454"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "171.3"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "84.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "46.3"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "671.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "535"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "201.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "5.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "53.1"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "789.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "476.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "181.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "92.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "46"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "704.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "421.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "169.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "81.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "50.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "641.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "442.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "186.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "185.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "56.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "685.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "467.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "187.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "81.1"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "53.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "708.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "472.8"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "194.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "82.2"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "55.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "722.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "577.6"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "219"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "103.5"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "55.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "852"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "610"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "214.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "109.7"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "50.4"
+    },
+    {
+      "lable": "月度Total Labor hours分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "874.7"
+    }
+  ],
+  "totalLaborhoursDivideEQUTrendYear": [
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1780382.9"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1655029.5"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1376284.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1903122.1"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1998268.9"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1760251.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "2057163.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "69190888.2"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.5"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "6259609.5"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Direct Labor Hours/EQU-Actual",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Direct Labor Hours/EQU-Benchmark",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "年度Direct Labor Hours/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "75000268.2"
+    }
+  ],
+  "totalLaborhoursDivideEQUClassYear": [
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "1488.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "553.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "125.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "2167.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "1464.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "579.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "135.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "2179.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "1231.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "508.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "142.6"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "1882.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "1477.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "543.6"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "127"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "2148.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "1539.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "586"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "196.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "153.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "2278.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "1340.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "537.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "359.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "153.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "2031.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "1517.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "600.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "266.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "164.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "2283.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "610"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "214.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "109.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "50.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "874.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "5304.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "2004.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "479.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "7788.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Direct Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Direct Labor Hours-Actual",
+      "yAxisValue": "5007.6"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Indirect Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Indirect Labor Hours-Actual",
+      "yAxisValue": "1939"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Outsourcing Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Outsourcing Labor hours-Actual",
+      "yAxisValue": "932.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Salary Labor Hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Salary Labor Hours-Actual",
+      "yAxisValue": "521.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor hours",
+      "unit": "K",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Total Labor hours-Actual",
+      "yAxisValue": "7468"
+    }
+  ]
+}

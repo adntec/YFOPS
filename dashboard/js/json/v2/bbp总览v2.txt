@@ -1,0 +1,5194 @@
+{
+  "errorMsg": null,
+  "conversionCost": [
+    {
+      "lable": "Conversion Cost",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 57866,
+      "unit": "K$"
+    }
+  ],
+  "equ": [
+    {
+      "lable": "EQU",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 69191,
+      "unit": "K"
+    }
+  ],
+  "conversionCostDivideEQU": [
+    {
+      "lable": "Conversion Cost/EQU",
+      "axis": "Benchmark",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 8
+    },
+    {
+      "lable": "Conversion Cost/EQU",
+      "axis": "T1",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 10
+    },
+    {
+      "lable": "Conversion Cost/EQU",
+      "axis": "T2",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 10
+    },
+    {
+      "lable": "Conversion Cost/EQU",
+      "axis": "T3",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 10
+    },
+    {
+      "lable": "Conversion Cost/EQU",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 0
+    }
+  ],
+  "ciSaving": [
+    {
+      "lable": "CI Saving",
+      "axis": "T1",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 538,
+      "unit": "万元"
+    },
+    {
+      "lable": "CI Saving",
+      "axis": "T2",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 570,
+      "unit": "万元"
+    },
+    {
+      "lable": "CI Saving",
+      "axis": "T3",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 601,
+      "unit": "万元"
+    },
+    {
+      "lable": "CI Saving",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 517,
+      "unit": "万元"
+    }
+  ],
+  "conversionCostDivideEQUTrendMonth": [
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "8.7"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "644547.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "506914.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "628921"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "548362.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "572178.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "12.3"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "534488.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "10.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "438313.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "12.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "424601.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "14.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "513369.7"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "7.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "633213.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "766371"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "10.8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "6290340.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "760567.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "718846.7"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.7"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "531035"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "748387.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "597346"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.3"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "575277.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.3"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "587628.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "10.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "641992.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "650718.6"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "769397.7"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "月度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "69190888.2"
+    }
+  ],
+  "conversionCostDivideEQUClassMonth": [
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "5980.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "993.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-26.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "834.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "13.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4165.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6294.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1211.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "733.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "-34.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4384.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6187.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1300.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-46.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "613.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "5.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4314.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6556.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1250.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-12.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "882.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "50"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4387"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6793"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1134.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-27.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "805.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "121.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4758.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6749.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1309"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-234.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "1179.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "42.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4452.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "4882.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1140.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-177.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "864.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "54.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "3001.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "5428.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1141.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-384.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "703"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "-23.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "3992.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "7534.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1524.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-196"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "1554.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "185.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4466.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "4921.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1312.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-1615.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "856.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "-95.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4464.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "8037.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1146.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "1151.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "1229.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "-69"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4579"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "8725.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1463.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "779.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "2367.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "-7.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4122"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "7482.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1199.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-21"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "790.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "25.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "5487.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6229.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "960"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-34.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "836.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "49.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4417.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6722.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1262.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-266.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "808.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "5.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4913.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6916.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "991.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "331.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "841.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "35.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4716.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6623.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1284"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-66.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "957.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "19.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4429.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6655.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1312"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-22.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "800.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "23.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4542.2"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6829.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1358.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-12.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "880.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "0.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4602.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "6514.9"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1406.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-20.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "431.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "395.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4302.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "7458.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1423.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-39.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "1094"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "57.5"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "4923.1"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "7478.3"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1459.7"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-52.4"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "902.6"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "16.8"
+    },
+    {
+      "lable": "月度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "5151.5"
+    }
+  ],
+  "conversionCostDivideEQUTrendYear": [
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "10"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1780382.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1655029.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "12.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1376284.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "18871020.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "2160151.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1998268.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "1760251.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "16600980"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "2057163.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "5533660"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "EQU-Actual",
+      "yAxisValue": "69190888.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "6.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.1"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "75484081.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "75484081.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "75484081.8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.5"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.4"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.2"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "EQU-T1",
+      "yAxisValue": "55336600"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "EQU-T2",
+      "yAxisValue": "55336600"
+    },
+    {
+      "lable": "年度Conversion Cost/EQU趋势分析",
+      "entity": "JIT PBU",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "EQU-T3",
+      "yAxisValue": "55336600"
+    }
+  ],
+  "conversionCostDivideEQUClassYear": [
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "18462.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "3505.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-73"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "2181.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "-15.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "12863.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "20098.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "3694.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-274.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "2866.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "214.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "13598.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "17846"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "3806.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-757.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "3121.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "216.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "11459.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "21685"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "3922.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "508.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "4453.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "-172.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "13165.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "20435.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "3422.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-322.6"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "2435.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "80.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "14818.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "20195.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "3587.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "318.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "2599.6"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "77.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "13687.9"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "20803.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "4188.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-72.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "2406"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "453.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "13828"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "7478.3"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "1459.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-52.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "902.6"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "16.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "5151.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "78092"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "14929.1"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-438.4"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "12623.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "242.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "51087.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Conversion Cost",
+      "unit": "K$",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Conversion Cost-Actual",
+      "yAxisValue": "68911.6"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Fixed Overhead excl. Salary/Fringes",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Fixed Overhead excl. Salary/Fringes-Actual",
+      "yAxisValue": "12657.5"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Material Usage",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Material Usage-Actual",
+      "yAxisValue": "-195.7"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Purchase Burden",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Purchase Burden-Actual",
+      "yAxisValue": "8343.8"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Scrap and Inventory",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Scrap and Inventory-Actual",
+      "yAxisValue": "629.2"
+    },
+    {
+      "lable": "年度Conversion Cost分析",
+      "entity": "JIT PBU",
+      "accountName": "Total Labor and Fringe",
+      "unit": "K$",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "Total Labor and Fringe-Actual",
+      "yAxisValue": "47486.2"
+    }
+  ],
+  "ciSavingTrendMonth": [
+    {
+      "lable": "CI Saving",
+      "entity": "JIT PBU",
+      "unit": "万元"
+    },
+    {
+      "lable": "CI Saving",
+      "entity": "JIT PBU",
+      "unit": "万元"
+    },
+    {
+      "lable": "CI Saving",
+      "entity": "JIT PBU",
+      "unit": "万元"
+    },
+    {
+      "lable": "CI Saving",
+      "entity": "JIT PBU",
+      "unit": "万元"
+    }
+  ],
+  "ciSavingTrendYear": [
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "1053"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "1106.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "1159.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "1195.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "1139"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "1196.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "1253.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "1437"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "1220.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "1281.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "1342.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "1397.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "1146.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "1205"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "1263.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "1482.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "1356.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "1425.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "1494.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "1791.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "1481.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "1562.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "1642"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "2085.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "1539.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "1628.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "1717"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "1722.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "538.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "570"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "601.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "517.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "4566.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "4797.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "5027.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "5520"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "CI Saving-T1",
+      "yAxisValue": "4923.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "CI Saving-T2",
+      "yAxisValue": "5194"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "CI Saving-T3",
+      "yAxisValue": "5464"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "CI Saving-Actual",
+      "yAxisValue": "5958.4"
+    }
+  ]
+}

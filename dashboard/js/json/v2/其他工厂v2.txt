@@ -1,0 +1,2026 @@
+{
+  "activeDimissionRate": [
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "薪水工主动离职率-T1",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "薪水工主动离职率-T2",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "薪水工主动离职率-T3",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "薪水工主动离职率-Actual",
+      "yAxisValue": "0"
+    }
+  ],
+  "mu": [
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.911"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.908"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.862"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.903"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.92"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.906"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.887"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "MU-Actual",
+      "yAxisValue": "0.887"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    },
+    {
+      "lable": "MU",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "MU-Benchmark",
+      "yAxisValue": "0.87"
+    }
+  ],
+  "personnelExpensesWithBU": [
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.023"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.015"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.022"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.018"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.015"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.018"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.044"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.036"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.029"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.036"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.035"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.028"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.023"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.028"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.03"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.024"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.02"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.024"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.034"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.022"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.067"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.054"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.045"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.054"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.032"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.032"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.031"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.021"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.031"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.021"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.016"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.013"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.011"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.013"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.089"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.073"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.073"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.049"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.023"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.016"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.02"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.017"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.014"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.017"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.034"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.028"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.023"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.028"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.048"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.039"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.032"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.039"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（BU）-T1",
+      "yAxisValue": "0.024"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（BU）-T2",
+      "yAxisValue": "0.02"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（BU）-T3",
+      "yAxisValue": "0.016"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（BU）-Actual",
+      "yAxisValue": "0.02"
+    }
+  ],
+  "personnelExpensesWithCompany": [
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.023"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.015"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.022"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.018"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.015"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.018"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.044"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.036"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.029"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.036"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "28.388"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "23.227"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "19.004"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "23.227"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.03"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.024"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.02"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.024"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.034"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.022"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.067"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.054"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.045"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.054"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.032"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.032"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.031"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.021"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.031"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.021"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.026"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.027"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.016"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.013"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.011"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.013"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.089"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.073"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.073"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.049"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.033"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.04"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.023"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.016"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.019"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.02"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.017"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.014"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.017"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.034"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.028"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.023"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.028"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.048"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.039"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.032"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.039"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（公司）-T1",
+      "yAxisValue": "0.024"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（公司）-T2",
+      "yAxisValue": "0.02"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（公司）-T3",
+      "yAxisValue": "0.016"
+    },
+    {
+      "lable": "薪水工主动离职率",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "人事费用率（公司）-Actual",
+      "yAxisValue": "0.02"
+    }
+  ]
+}

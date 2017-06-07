@@ -1,0 +1,1198 @@
+{
+  "ciSaving": [
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "CI Saving-Actual"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "CI Saving-T1"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "CI Saving-T2"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "CI Saving-T3"
+    },
+    {
+      "lable": "CI Saving",
+      "unit": "万元",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "CI Saving-Actual"
+    }
+  ],
+  "conversionCostDivideEQU": [
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "8.2"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "11"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "7.3"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "11.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "11.5"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "11.2"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "10.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "7.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "12.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "12"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "11.8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "10.7"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "20.2"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "19.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "19.5"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "24.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "9.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "9.8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "0"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "15"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "6.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "11.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "11"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.7"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "7.2"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "8.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "8.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "7.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "6.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "9.4"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "9.3"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "9.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "8.5"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "8.3"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "8.3"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "8.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "8.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "15.5"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "15.4"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "15.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "16.8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "8.5"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "8.4"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "8.2"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "7.3"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "11.7"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "11.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "11.3"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "12.2"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "12.1"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "11.8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "11.5"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "7.5"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "Conversion Cost/EQU-Benchmark",
+      "yAxisValue": "8"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "Conversion Cost/EQU-T1",
+      "yAxisValue": "11"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "Conversion Cost/EQU-T2",
+      "yAxisValue": "10.9"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "Conversion Cost/EQU-T3",
+      "yAxisValue": "10.6"
+    },
+    {
+      "lable": "工厂Conversion Cost/EQU分析",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "Conversion Cost/EQU-Actual",
+      "yAxisValue": "9.2"
+    }
+  ]
+}

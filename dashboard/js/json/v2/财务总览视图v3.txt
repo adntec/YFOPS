@@ -1,0 +1,4968 @@
+{
+  "errorMsg": null,
+  "overviewStockAmount": [
+    {
+      "lable": "库存金额",
+      "axis": "T1",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 195362,
+      "unit": "K￥"
+    },
+    {
+      "lable": "库存金额",
+      "axis": "T2",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 217069,
+      "unit": "K￥"
+    },
+    {
+      "lable": "库存金额",
+      "axis": "T3",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 238775,
+      "unit": "K￥"
+    },
+    {
+      "lable": "库存金额",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 217069,
+      "unit": "K￥"
+    }
+  ],
+  "overviewTurnoverDays": [
+    {
+      "lable": "库龄",
+      "axis": "T1",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 3,
+      "unit": "天",
+      "axisNo": 0
+    },
+    {
+      "lable": "库龄",
+      "axis": "T2",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 2,
+      "unit": "天",
+      "axisNo": 0
+    },
+    {
+      "lable": "库龄",
+      "axis": "T3",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 2,
+      "unit": "天",
+      "axisNo": 0
+    },
+    {
+      "lable": "库龄",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 2,
+      "unit": "天",
+      "axisNo": 0
+    }
+  ],
+  "overviewTurnoverRate": [
+    {
+      "lable": "库龄",
+      "axis": "T1",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "unit": "次",
+      "axisNo": 0
+    },
+    {
+      "lable": "库龄",
+      "axis": "T2",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "unit": "次",
+      "axisNo": 0
+    },
+    {
+      "lable": "库龄",
+      "axis": "T3",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "unit": "次",
+      "axisNo": 0
+    },
+    {
+      "lable": "库龄",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 83,
+      "unit": "次",
+      "axisNo": 0
+    }
+  ],
+  "overviewUnbilledSell": [
+    {
+      "lable": "未开票销售",
+      "axis": "T1",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 1899726,
+      "unit": "K￥"
+    },
+    {
+      "lable": "未开票销售",
+      "axis": "T2",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 2110807,
+      "unit": "K￥"
+    },
+    {
+      "lable": "未开票销售",
+      "axis": "T3",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 2321887,
+      "unit": "K￥"
+    },
+    {
+      "lable": "未开票销售",
+      "axis": "Actual",
+      "axisType": "值",
+      "entity": "JIT PBU",
+      "axisValue": 2110807,
+      "unit": "K￥"
+    }
+  ],
+  "overviewTurnoverDaysMonth": [
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "165321888.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "183690987.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "202060085.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "183690987.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "156907775.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "174341973"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "191776170.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "174341973"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "149485112.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "166094569.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "182704026.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "166094569.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "164129715.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "182366350.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "200602985.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "182366350.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "162968071.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "181075635.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "199183199.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "181075635.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "165406605.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "183785116.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "202163628.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "183785116.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "171587273.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "190652526.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "209717779.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "190652526.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "168291116"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "186990128.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "205689141.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "186990128.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "176163350.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "195737056.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "215310762.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "195737056.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "177133097.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "196814553.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "216496008.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "196814553.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "175249324.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "194721471"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "214193617.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "194721471"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "206263779.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "229181977.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "252100175.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "229181977.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "173613282.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "192903647.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "212194012.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "192903647.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "171414919.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "190461021.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "209507124"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "190461021.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "179611314.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "199568127"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "219524939.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "199568127"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "154439212.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "171599124.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "188759036.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "171599124.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "164340911.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "182601013.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "200861114.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "182601013.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "156539182.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "173932424.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "191325667.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "173932424.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "158370023.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "175966692.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "193563362.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "175966692.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "190186231.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "211318034.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "232449837.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "211318034.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "188368219.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "209298022.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "230227824"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "209298022.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "195362188.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "217069098.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "238776008"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "217069098.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    }
+  ],
+  "overviewStockageMonth": [
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.76"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.12"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.76"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.18"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.72"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.17"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.72"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.17"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.72"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.17"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.78"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.83"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.78"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.78"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.78"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.89"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.83"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.68"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.21"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.74"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.16"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.74"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.16"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.79"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.75"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.15"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.85"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.85"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.85"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.85"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "月度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.05"
+    }
+  ],
+  "overviewTurnoverDaysYear": [
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "149485112.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "166094569.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "182704026.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "166094569.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "165406605.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "183785116.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "202163628.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "183785116.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "176163350.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "195737056.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "215310762.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "195737056.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "206263779.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "229181977.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "252100175.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "229181977.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "179611314.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "199568127"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "219524939.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "199568127"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "156539182.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "173932424.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "191325667.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "173932424.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "188368219.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "209298022.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "230227824"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "209298022.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "195362188.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "217069098.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "238776008"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "217069098.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "206263779.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "229181977.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "252100175.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "229181977.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "5.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "195362188.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "217069098.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "238776008"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "217069098.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.5"
+    }
+  ],
+  "overviewStockageYear": [
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015",
+      "xAxisValue": "2015",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.83"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015",
+      "xAxisValue": "2015",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015",
+      "xAxisValue": "2015",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015",
+      "xAxisValue": "2015",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.72"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.17"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.78"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.78"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.83"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "x>30",
+      "yAxisValue": "0.06"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016",
+      "xAxisValue": "2016",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.85"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016",
+      "xAxisValue": "2016",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016",
+      "xAxisValue": "2016",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.74"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.11"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.16"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.85"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.05"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "1<x<=7",
+      "yAxisValue": "0.85"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "7<x<=30",
+      "yAxisValue": "0.1"
+    },
+    {
+      "lable": "年度库龄分析",
+      "entity": "JIT PBU",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "x<=1",
+      "yAxisValue": "0.05"
+    }
+  ],
+  "overviewUnbilledSellTrendMonth": [
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "670452005.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "744946673.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "819441340.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201501",
+      "xAxisValue": "201501",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "744946673.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "379542385.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "421713762"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "463885138.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201502",
+      "xAxisValue": "201502",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "421713762"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "431681869.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "479646521.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "527611174"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201503",
+      "xAxisValue": "201503",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "479646521.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "544150403.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "604611559.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "665072715.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201504",
+      "xAxisValue": "201504",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "604611559.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "414224737.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "460249708.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "506274679.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201505",
+      "xAxisValue": "201505",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "460249708.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "217795518.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "241995020.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "266194522.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201506",
+      "xAxisValue": "201506",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "241995020.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "287815402.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "319794891.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "351774380.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201507",
+      "xAxisValue": "201507",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "319794891.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "380583058.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "422870064.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "465157071.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201508",
+      "xAxisValue": "201508",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "422870064.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "454706662"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "505229624.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "555752586.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201509",
+      "xAxisValue": "201509",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "505229624.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1124458160.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1249397956.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1374337751.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201510",
+      "xAxisValue": "201510",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1249397956.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1259825133.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1399805704.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1539786274.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201511",
+      "xAxisValue": "201511",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1399805704.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "896320547.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "995911719.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1095502891.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201512",
+      "xAxisValue": "201512",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "995911719.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1289947972.7"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1433275525.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1576603077.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201601",
+      "xAxisValue": "201601",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1433275525.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1961326190"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "2179251322.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "2397176454.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201602",
+      "xAxisValue": "201602",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "2179251322.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "2480834479.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "2756482754.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "3032131030.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201603",
+      "xAxisValue": "201603",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "2756482754.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1977298347.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "2196998163.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "2416697980.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201604",
+      "xAxisValue": "201604",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "2196998163.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "2370127630.1"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "2633475144.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "2896822659"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201605",
+      "xAxisValue": "201605",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "2633475144.5"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "2430979324.6"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "2701088138.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "2971196952.3"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201606",
+      "xAxisValue": "201606",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "2701088138.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1360367954"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1511519948.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1662671943.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201607",
+      "xAxisValue": "201607",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1511519948.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1092894777"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1214327530"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1335760283"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201608",
+      "xAxisValue": "201608",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1214327530"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1549469098.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1721632332"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1893795565.2"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201609",
+      "xAxisValue": "201609",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1721632332"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1899726285.9"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "2110806984.4"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "2321887682.8"
+    },
+    {
+      "lable": "月度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "201610",
+      "xAxisValue": "201610",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "2110806984.4"
+    }
+  ],
+  "overviewUnbilledSellTrendYear": [
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1481676261.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1646306956.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1810937652.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q1",
+      "xAxisValue": "2015Q1",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1646306956.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1176170660"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1306856288.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1437541917.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q2",
+      "xAxisValue": "2015Q2",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1306856288.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1123105122.3"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "1247894580.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "1372684038.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q3",
+      "xAxisValue": "2015Q3",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "1247894580.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "3117703143.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "3464114603.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "3810526064.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2015Q4",
+      "xAxisValue": "2015Q4",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "3464114603.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "5731386875.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "6368207639.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "7005028403.5"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q1",
+      "xAxisValue": "2016Q1",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "6368207639.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "6778405302.2"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "7531561446.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "8284717591.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q2",
+      "xAxisValue": "2016Q2",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "7531561446.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "4002731829.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "4447479810.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "4892227792"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q3",
+      "xAxisValue": "2016Q3",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "4447479810.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "1899726285.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "2110806984.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "2321887682.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "2016Q4",
+      "xAxisValue": "2016Q4",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "2110806984.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "7304945646.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "8116606274.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "8928266901.8"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2015",
+      "xAxisValue": "CY2015",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "8116606274.4"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "18412250293.6"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "20458055881.7"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "22503861469.9"
+    },
+    {
+      "lable": "年度趋势分析",
+      "entity": "JIT PBU",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "CY2016",
+      "xAxisValue": "CY2016",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "20458055881.7"
+    }
+  ]
+}

@@ -1,0 +1,2773 @@
+{
+  "errorMsg": null,
+  "stockTurnoverDays": [
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "1584677"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "1760752.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "1936827.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "1760752.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "9405430.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "10450478.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "11495526.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "10450478.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "6222386.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "6913762.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "7605138.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "6913762.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "5737436.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "6374929.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "7012422.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "6374929.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "40396336.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "44884818.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "49373300.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "44884818.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "24.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "19.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "16.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "19.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "4452860.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "4947622.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "5442385.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "4947622.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "12093951.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "13437724.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "14781496.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "13437724.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "9.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "7.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "6.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "7.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "2194230.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "2438033.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "2681837.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "2438033.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "6.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "5.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "5.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "7448071.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "8275634.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "9103198.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "8275634.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "3212448.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "3569387.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "3926326.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "3569387.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "3315998.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "3684442.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "4052887"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "3684442.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "2202024.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "2446694.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "2691363.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "2446694.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "13194306.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "14660340.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "16126374.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "14660340.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "6513724.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "7237471.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "7961218.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "7237471.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "2.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "3364994.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "3738882.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "4112771"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "3738882.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "45844477.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "50938308.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "56032139"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "50938308.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "3202702.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "3558558.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "3914414.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "3558558.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "2.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "19580837.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "21756485.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "23932134.5"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "21756485.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "739316.7"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "821463"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "903609.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "821463"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库存金额-T1",
+      "yAxisValue": "4655975.9"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库存金额-T2",
+      "yAxisValue": "5173306.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库存金额-T3",
+      "yAxisValue": "5690637.2"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "unit": "CNY",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库存金额-Actual",
+      "yAxisValue": "5173306.6"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.8"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂趋势分析",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.8"
+    }
+  ],
+  "stockStockage": [
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "0.8"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "0.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "0.7"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.5"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "24.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "19.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "16.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "常熟总装",
+      "xAxisValue": "常熟总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "19.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "9.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "7.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "6.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "7.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "6.4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "5.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "4.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "5.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.8"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "0.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2.7"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2.7"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.8"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.5"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "2.4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.7"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "4.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "2.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "3.9"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "2.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "3.2"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "1.6"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.3"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-T1",
+      "yAxisValue": "2.1"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-T2",
+      "yAxisValue": "1.8"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-T3",
+      "yAxisValue": "1.4"
+    },
+    {
+      "lable": "工厂库龄分析",
+      "unit": "天",
+      "axisNo": 1,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "库龄-Actual",
+      "yAxisValue": "1.8"
+    }
+  ],
+  "stockUnbilledAmount": [
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "120839.7"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "134266.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "147692.9"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "仪征总装",
+      "xAxisValue": "仪征总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "134266.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "38078.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "42309.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "46540"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "南汇总装",
+      "xAxisValue": "南汇总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "42309.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "181859.5"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "202066.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "222272.7"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "宁波总装",
+      "xAxisValue": "宁波总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "202066.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "369561.9"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "410624.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "451686.8"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "安亭总装",
+      "xAxisValue": "安亭总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "410624.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "38176.7"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "42418.6"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "46660.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "广州东风",
+      "xAxisValue": "广州东风",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "42418.6"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "86336.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "95929.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "105522.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "廊坊总装",
+      "xAxisValue": "廊坊总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "95929.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "42196.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "46884.8"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "51573.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "杭州总装",
+      "xAxisValue": "杭州总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "46884.8"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "274278.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "304753.6"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "335228.9"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "柳州总装",
+      "xAxisValue": "柳州总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "304753.6"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "91090"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "101211.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "111332.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉东风",
+      "xAxisValue": "武汉东风",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "101211.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "7567.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "8408.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "9249.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉总装",
+      "xAxisValue": "武汉总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "8408.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "63019.9"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "70022.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "77024.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "武汉江夏",
+      "xAxisValue": "武汉江夏",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "70022.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "273829.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "304254.8"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "334680.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "江宁总装",
+      "xAxisValue": "江宁总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "304254.8"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "39951.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "44390.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "48829.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "沈阳总装",
+      "xAxisValue": "沈阳总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "44390.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "20843.1"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "23159"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "25474.9"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "浦口总装",
+      "xAxisValue": "浦口总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "23159"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "13770.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "15300.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "16830.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "烟台总装",
+      "xAxisValue": "烟台总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "15300.2"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "45023.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "50025.9"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "55028.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "盐城总装",
+      "xAxisValue": "盐城总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "50025.9"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "30305"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "33672.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "37039.5"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "秀浦总装",
+      "xAxisValue": "秀浦总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "33672.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "89706.6"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "99674"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "109641.4"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "郑州东风",
+      "xAxisValue": "郑州东风",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "99674"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "未开票销售-T1",
+      "yAxisValue": "73293.3"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "未开票销售-T2",
+      "yAxisValue": "81437"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "未开票销售-T3",
+      "yAxisValue": "89580.6"
+    },
+    {
+      "lable": "未开票销售",
+      "unit": "K￥",
+      "axisNo": 0,
+      "xAxisLabel": "长沙总装",
+      "xAxisValue": "长沙总装",
+      "yAxisLabel": "未开票销售-Actual",
+      "yAxisValue": "81437"
+    }
+  ]
+}

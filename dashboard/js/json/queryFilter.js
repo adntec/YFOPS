@@ -1,0 +1,22 @@
+var bbpQueryFilter = {
+  "filterList": [
+    {
+      "businessCat3": "Conversion Cost/EQU"
+    },
+    {
+      "businessCat3": "Fixed Overhead excl. Salary/Fringes/EQU"
+    },
+    {
+      "businessCat3": "Material Usage/EQU"
+    },
+    {
+      "businessCat3": "Purchase Burden/EQU"
+    },
+    {
+      "businessCat3": "Scrap and Inventory/EQU"
+    },
+    {
+      "businessCat3": "Total Labor and Fringe/EQU"
+    }
+  ]
+};
