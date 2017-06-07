@@ -51,8 +51,8 @@ SeanApp.factory('settings', ['$rootScope', function($rootScope) {
         assetsPath: '../assets',
         globalPath: '../assets/global',
         layoutPath: '../assets/layouts/layout',
-        // api:'http://127.0.0.1:8085',
-        api:'http://10.178.188.193:8085',
+        api:'http://127.0.0.1:8085',
+        // api:'http://10.178.188.193:8085',
         version:'0.5.2',
         debug: {
             request:false,
@@ -98,19 +98,19 @@ SeanApp.factory("$httpInterceptor",["$q", "$rootScope", function($q, $rootScope)
                 console.log("[response]:"+json.status+","+json.config.url);
             }
             // console.log(json);
-            if(angular.isDefined(json.data.errorMsg) && json.data.errorMsg != "" && json.data.errorMsg != null){
-                // toastr.clear()
-                toastr["warning"](json.data.errorMsg,"");
-                window.location.href = "#/login";
-                return;
-            }
+            // if(angular.isDefined(json.data.errorMsg) && json.data.errorMsg != "" && json.data.errorMsg != null){
+            //     // toastr.clear()
+            //     toastr["warning"](json.data.errorMsg,"");
+            //     window.location.href = "#/login";
+            //     return;
+            // }
             
             return json || $q.when(json);
         },
         responseError : function(json) {
             $rootScope.$broadcast('$onSubmitSuccess');
             
-            window.location.href = "#/login";
+            // window.location.href = "#/login";
             return $q.reject(json);
 
             if($rootScope.settings.debug.responseError){
@@ -197,7 +197,7 @@ SeanApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider,
     var jsPath = '../dashboard/js/';
     // var jsPath = '../plugins';
 
-    $urlRouterProvider.otherwise("/login");  
+    $urlRouterProvider.otherwise("/dashboard");  
     
     $stateProvider
         // Dashboard
