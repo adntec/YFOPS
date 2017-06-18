@@ -264,7 +264,7 @@
 
         }).error(function(){
 
-            toastr["warning"]("/hr/queryFilter error","");
+            console.log("/hr/queryFilter error","");
             ///////假数据
             $scope.filterListObject = hrQueryFilter.filterList;
             $scope.getfilterListSuccess($scope.filterListObject);

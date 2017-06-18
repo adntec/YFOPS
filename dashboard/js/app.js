@@ -100,7 +100,7 @@ SeanApp.factory("$httpInterceptor",["$q", "$rootScope", function($q, $rootScope)
             // console.log(json);
             // if(angular.isDefined(json.data.errorMsg) && json.data.errorMsg != "" && json.data.errorMsg != null){
             //     // toastr.clear()
-            //     toastr["warning"](json.data.errorMsg,"");
+            //     console.log(json.data.errorMsg,"");
             //     window.location.href = "#/login";
             //     return;
             // }

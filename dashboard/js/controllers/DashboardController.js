@@ -407,7 +407,7 @@ Array.prototype.unique = function(){
 
         }).error(function(){
             toastr.clear();
-            toastr["warning"]("/finance/queryBuList error","");
+            console.log("/finance/queryBuList error","");
             $scope.BuListObject = queryBuList.BuList;
             $scope.getBuListSuccess($scope.BuListObject);
             $scope.refreshChinaMap($rootScope.entityShortName);
@@ -482,7 +482,7 @@ Array.prototype.unique = function(){
         }).error(function(){
 
             toastr.clear();
-            toastr["warning"]("/finance/overviewData 请求error","");
+            console.log("/finance/overviewData 请求error","");
             $scope.overviewData = overviewData;
             $scope.initEchart($scope.overviewData);
             

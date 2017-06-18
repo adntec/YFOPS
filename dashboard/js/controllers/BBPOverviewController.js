@@ -420,7 +420,7 @@
 
         }).error(function(){
             toastr.clear();
-            toastr["warning"]("/bbp/queryFilter 请求error","");
+            console.log("/bbp/queryFilter 请求error","");
             ///////假数据
             $scope.filterListObject= bbpQueryFilter.filterList;
             $scope.getfilterListSuccess($scope.filterListObject);
@@ -591,7 +591,7 @@
         }).error(function(){
              ////假数据
             toastr.clear();
-            toastr["warning"]("/bbp/queryOverviewData 请求error","");
+            console.log("/bbp/queryOverviewData 请求error","");
             $scope.overviewData = bbpQueryOverviewData;
             $scope.initEchart($scope.overviewData);
         });

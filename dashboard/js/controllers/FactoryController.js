@@ -373,7 +373,7 @@
             $scope.overviewData = json;
             $scope.initEchart($scope.overviewData);
         }).error(function(){
-            toastr["warning"]("/finance/buData error","");
+            console.log("/finance/buData error","");
             $scope.overviewData = buData;
             $scope.initEchart($scope.overviewData);
         });

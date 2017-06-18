@@ -25,7 +25,7 @@
         $http.post( $rootScope.settings.api + '/user/login',$scope.request).success(function(json){
             
             if(json.errorMsg){
-                toastr["warning"](json.errorMsg,"");
+                console.log(json.errorMsg,"");
                 return;
             }
 

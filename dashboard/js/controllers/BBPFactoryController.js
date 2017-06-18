@@ -287,7 +287,7 @@
 
         }).error(function(){
             
-            toastr["warning"]("/bbp/queryFilter error","");
+            console.log("/bbp/queryFilter error","");
             ///////假数据
             $scope.filterListObject = bbpQueryFilter.filterList;
             $scope.getfilterListSuccess($scope.filterListObject);

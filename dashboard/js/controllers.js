@@ -203,7 +203,7 @@ angular.module('SeanApp').controller('BBPFactoryController', [
         $scope.filterListObject = json.filterList;
         $scope.getfilterListSuccess($scope.filterListObject);
       }).error(function () {
-        toastr['warning']('/bbp/queryFilter error', '');
+        console.log('/bbp/queryFilter error', '');
         ///////假数据
         $scope.filterListObject = bbpQueryFilter.filterList;
         $scope.getfilterListSuccess($scope.filterListObject);
@@ -720,7 +720,7 @@ angular.module('SeanApp').controller('BBPOverviewController', [
         $scope.getBuList('JIT PBU');
       }).error(function () {
         toastr.clear();
-        toastr['warning']('/bbp/queryFilter \u8bf7\u6c42error', '');
+        console.log('/bbp/queryFilter \u8bf7\u6c42error', '');
         ///////假数据
         $scope.filterListObject = bbpQueryFilter.filterList;
         $scope.getfilterListSuccess($scope.filterListObject);
@@ -857,7 +857,7 @@ angular.module('SeanApp').controller('BBPOverviewController', [
       }).error(function () {
         ////假数据
         toastr.clear();
-        toastr['warning']('/bbp/queryOverviewData \u8bf7\u6c42error', '');
+        console.log('/bbp/queryOverviewData \u8bf7\u6c42error', '');
         $scope.overviewData = bbpQueryOverviewData;
         $scope.initEchart($scope.overviewData);
       });
@@ -1836,7 +1836,7 @@ angular.module('SeanApp').controller('DashboardController', [
         $scope.refreshChinaMap($rootScope.entityShortName);
       }).error(function () {
         toastr.clear();
-        toastr['warning']('/finance/queryBuList error', '');
+        console.log('/finance/queryBuList error', '');
         $scope.BuListObject = queryBuList.BuList;
         $scope.getBuListSuccess($scope.BuListObject);
         $scope.refreshChinaMap($rootScope.entityShortName);
@@ -1892,7 +1892,7 @@ angular.module('SeanApp').controller('DashboardController', [
         $scope.initEchart($scope.overviewData);
       }).error(function () {
         toastr.clear();
-        toastr['warning']('/finance/overviewData \u8bf7\u6c42error', '');
+        console.log('/finance/overviewData \u8bf7\u6c42error', '');
         $scope.overviewData = overviewData;
         $scope.initEchart($scope.overviewData);
       });
@@ -2378,7 +2378,7 @@ angular.module('SeanApp').controller('FactoryController', [
         $scope.overviewData = json;
         $scope.initEchart($scope.overviewData);
       }).error(function () {
-        toastr['warning']('/finance/buData error', '');
+        console.log('/finance/buData error', '');
         $scope.overviewData = buData;
         $scope.initEchart($scope.overviewData);
       });
@@ -2746,7 +2746,7 @@ angular.module('SeanApp').controller('HRFactoryController', [
         $scope.filterListObject = json.filterList;
         $scope.getfilterListSuccess($scope.filterListObject);
       }).error(function () {
-        toastr['warning']('/hr/queryFilter error', '');
+        console.log('/hr/queryFilter error', '');
         ///////假数据
         $scope.filterListObject = hrQueryFilter.filterList;
         $scope.getfilterListSuccess($scope.filterListObject);
@@ -3506,7 +3506,7 @@ angular.module('SeanApp').controller('LoginController', [
       // $state.go('dashboard');
       $http.post($rootScope.settings.api + '/user/login', $scope.request).success(function (json) {
         if (json.errorMsg) {
-          toastr['warning'](json.errorMsg, '');
+          console.log(json.errorMsg, '');
           return;
         }
         if (json.token) {
